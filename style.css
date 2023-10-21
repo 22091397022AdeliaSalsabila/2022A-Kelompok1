@@ -1,93 +1,211 @@
-*,
-html {
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
     margin: 0;
+    background: #F8F4EA;
+}
+
+header{
+    background-color: #FEFCF3;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    padding: 5px 20px;
+    justify-content: space-between;
+    box-shadow: 0px 3px 10px 0 rgba(255,187,92,0.2);
+}
+
+/*nav,.inputSearch{
+    display:none;
+}*/
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
     padding: 0;
 }
 
-body {
-    background-color: #66a0c5;
+nav ul li{
+    cursor: pointer;
 }
 
-.container-navbar {
-    background-color: #fbd55a;
-    width: 100%;
-    height: 10vh;
+nav ul li:hover{
+    color: #025464;
 }
 
-.ul-navbar {
+.inputSearch,
+form{
     display: flex;
-    height: 100px;
+    align-items: center;
+    height: 40px;
+    width: 400px;
+    border-radius: 35px;
+    overflow: hidden;
+    border: 1.5px solid #025464;
+}
+
+.inputSearch input{
+    width: 100%;
+    height: 100%;
+    padding: 0px 15px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.inputSearch span{
+    width: 50px;
+    background-color: #025464;
+    height: 100%;
+    display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 15px;
+    color: white;
 }
 
-.li-navbar {
-    list-style-type: none;
-    padding: 20px;
-    margin: 5px;
-    color: black;
-    font-size: 25px;
-    text-orientation: upright;
+.menuButton{
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
     display: flex;
-}
-
-.li-navbar:hover {
-    background-color: #66a0c5;
-    transition: .5s ease-in-out;
-    transition-delay: .3s;
-    border-radius: 8px;
-}
-
-.a-navbar {
-    color: rgb(153, 193, 201);
-    text-decoration: none;
-    font-weight: 900;
-}
-
-.container-content {
-    background-color: #66a0c5;
-    margin-right: 20px;
-    margin-left: 20px;
-    display: flex;
-    flex-direction: column; 
-    justify-content:center;
+    justify-content: center;
     align-items: center;
-    min-height: 40vh;
-    padding: 20px;
-    text-align: center;
+    cursor: pointer;
 }
 
-.a-content {
-    background-color:cornsilk;
-    color: rgb(63, 60, 60);
-    margin-right: 20px;
-    margin-left: 20px;
-    text-decoration: none;
-    font-size: 25px;
-    width: 720px;
-    height: 480px;
+.menuButton:hover{
+    background-color: #025464;
+    color: white;
+}
+
+.desktop{
+    display: none;
+}
+
+@media all and (min-width:700) {
+    header{ 
+        padding: 5px 30px;
+    }
+    .desktop{
+        display: flex;
+    }
+    .menuButton{
+        display: none;
+    }
+}
+
+
+/***mobile menu***/
+.mobile {
+    position: fixed;
+    top: 75px;
+    width: 100%;
+    max-width: 700px;
+    background-color: #F8F4EA;
+    height: 100vh;
+    padding: 20px;
+    box-shadow: none;
+    z-index: 2;
+    margin-left: -10px;
+}
+
+.mobile nav,
+.mobile nav ul{
+    flex-direction: column;
+}
+
+.mobile .inputSearch,
+.mobile form{
+    height: 35px;
+}
+
+.hidden{
+    display: none;
+}
+
+@media all and (min-width: 700px){
+    .mobile{
+        display: none;
+    }
+}
+
+
+/***css card***/
+main{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    border-radius: 80px;
-    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    gap: 25px;
+    padding: 10px;
+    margin: auto;
 }
 
-.img-content {
-    width: 35%;
-    height: 50%;
-}
-
-.container-footer {
-    height: 10vh;
-    background-color: #fbd55a;
+.card{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    max-width: 400px;
+    box-shadow: 7px 7px 25px 1px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    overflow: hidden;
+    padding-bottom: 10px;
+    background: #ffffff;
 }
 
-.h1-footer {
-    font-size: 20px;
-    color: rgb(58, 54, 54);
+.card img{
+    min-height: 210px;
+    max-height: 210px;
+    background-color: #E1D7C6;
+}
+
+.card h4,
+.card div{
+    padding: 5px 10px;
+    margin: 0px;
+}
+
+.publishbyDate{
+    display: flex;
+    align-items: center;
+    color:#bcbcbc;
+}
+
+.publishbyDate dt{
+    margin: 0px;
+    font-size: 14px;
+}
+
+.publishbyDate span{
+    padding: 0px 10px;
+}
+
+.desc{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    margin: 0;
+}
+
+.card a{
+    color: inherit;
+    text-decoration: none;
+}
+
+@media all and (min-width: 700px) {
+    main {
+        padding: 20px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .card h4,
+    .card div{
+        padding: 5px 15px;
+}
 }
