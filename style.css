@@ -19,9 +19,37 @@ header{
     box-shadow: 0px 3px 10px 0 rgba(255,187,92,0.2);
 }
 
-/*nav,.inputSearch{
+
+.ul-navbar {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.li-navbar {
+    list-style-type: none;
+    padding: 20px;
+    margin: 5px;
+    font-size: 20px;
+    text-orientation: upright;
+    cursor: pointer;
+}
+
+.li-navbar:hover {
+    color: #025464;
+}
+
+.a-navbar {
+    text-decoration: none;
+    font-weight: 600;
+    color: #000;
+}
+
+
+nav,.inputSearch{
     display:none;
-}*/
+}
 
 nav ul{
     display: flex;
@@ -101,6 +129,19 @@ form{
     }
 }
 
+.container-footer{
+    height: 7vh;
+    background-color: #E1D7C6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1-footer{
+    font-size: 15px;
+    color: #146C94;
+}
+
 
 /***mobile menu***/
 .mobile {
@@ -160,6 +201,8 @@ main{
 .card img{
     min-height: 210px;
     max-height: 210px;
+    justify-content: center;
+    align-items: center;
     background-color: #E1D7C6;
 }
 
