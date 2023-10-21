@@ -1,20 +1,12 @@
-LAPORAN TUGAS
+LAPORAN SRS
 PEMROGRAMAN WEB
-SRS WEBSITE E-NEWSPAPER
+FOUR U: WEBSITE E-NEWSPAPER
 
-Disusun Oleh Kelompok 1 :
-
-
+Disusun Oleh Kelompok 1 (2022A):
 1.)	Adelia Salsabila Arifin		      22091397022
 2.)	Deby Putri Sulistyo Rini		    22091397029
 3.)	Enrique Rendhi Julian Mahardika	22091397031
 4.)	Epa Aprillia	 			            22091397024
-
-
-PRODI D4 MANAJEMEN INFORMATIKA
-FAKULTAS VOKASI
-UNIVERSITAS NEGERI SURABAYA
-2023
 
 
 
