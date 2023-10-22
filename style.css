@@ -17,117 +17,152 @@ header{
     padding: 5px 20px;
     justify-content: space-between;
     box-shadow: 0px 3px 10px 0 rgba(255,187,92,0.2);
+    position: relative;
+    max-width: 100%;
+    margin: auto;
 }
 
 
-.ul-navbar {
+/**MENU BAR**/
+
+.menu-bar ul {
     display: flex;
     height: 100px;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
-.li-navbar {
+.menu-bar ul li {
     list-style-type: none;
     padding: 20px;
-    margin: 5px;
+    margin: 0px;
     font-size: 20px;
     text-orientation: upright;
     cursor: pointer;
+    position: relative;
 }
 
-.li-navbar:hover {
-    color: #025464;
-}
-
-.a-navbar {
+.menu-bar ul li a {
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 700;
     color: #000;
+    transition: all 0.3s;
+    text-align: left;
+    justify-content: left;
 }
 
-
-nav,.inputSearch{
-    display:none;
-}
-
-nav ul{
-    display: flex;
-    list-style: none;
-    gap: 10px;
-    padding: 0;
-}
-
-nav ul li{
-    cursor: pointer;
-}
-
-nav ul li:hover{
+.menu-bar ul li a:hover {
     color: #025464;
 }
 
-.inputSearch,
-form{
-    display: flex;
-    align-items: center;
-    height: 40px;
-    width: 400px;
-    border-radius: 35px;
-    overflow: hidden;
-    border: 1.5px solid #025464;
+.fas {
+    float: right;
+    margin-left: 10px;
+    padding-top: 3px;
 }
 
-.inputSearch input{
-    width: 100%;
-    height: 100%;
-    padding: 0px 15px;
-    border: none;
-    outline: none;
-    font-size: 16px;
-}
+/* dropdown menu style */
 
-.inputSearch span{
-    width: 50px;
-    background-color: #025464;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 15px;
-    color: white;
-}
-
-.menuButton{
-    font-size: 20px;
-    width: 40px;
-    height: 40px;
-    border-radius: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-}
-
-.menuButton:hover{
-    background-color: #025464;
-    color: white;
-}
-
-.desktop{
+.dropdown-menu {
     display: none;
 }
 
-@media all and (min-width:700) {
-    header{ 
-        padding: 5px 30px;
-    }
-    .desktop{
+.menu-bar ul li:hover .dropdown-menu {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: #FEFCF3;
+    height: 235px;
+    width: 140px;
+}
+
+.menu-bar ul li:hover .dropdown-menu ul {
+    display: block;
+    margin: auto;
+}
+
+.menu-bar ul li:hover .dropdown-menu ul li {
+    width: 150px;
+    padding: 5px;
+}
+
+.menu-bar ul li:hover .dropdown-menu ul li a {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+/**MENU SEARCH**/
+
+
+.inputSearch .searchForm {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 32px;
+    width: 300px;
+    margin: auto;
+    border-radius: 25px;
+    overflow: hidden;
+    border: 1.5px solid #025464;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.inputSearch .searchInput{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    background-color: #FEFCF3;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    padding: 0px 15px;
+}
+
+.inputSearch .icon {
+    position: absolute;
+    right: -2px;
+    width: 50px;
+    background: #025464;
+    height: 100%;
+    text-align: center;
+    line-height: center;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 0 25px 25px 0;
+}
+
+.inputSearch .searchInput:focus ~ .icon {
+    background: #025464;
+    color: #fff;
+    width: 50px;
+    border-radius: 0 25px 25px 0;
+}
+
+
+@media all and (min-width:700px) {
+    .inputSearch{ 
         display: flex;
     }
-    .menuButton{
-        display: none;
+    .searchForm{
+        max-width: 300px;
+    }
+    .searchInput {
+        width: 100%;
+        height: 100%;
+        padding: 0 15px;
+    }
+    .icon {
+        width: 50px;
     }
 }
+
+
+/**MENU FOOTER**/
 
 .container-footer{
     height: 7vh;
@@ -143,8 +178,8 @@ form{
 }
 
 
-/***mobile menu***/
-.mobile {
+/***MENU MOBILE***/
+/*.mobile {
     position: fixed;
     top: 75px;
     width: 100%;
@@ -175,10 +210,11 @@ form{
     .mobile{
         display: none;
     }
-}
+}*/
 
 
-/***css card***/
+/***MAIN CSS CARD***/
+
 main{
     display: flex;
     flex-direction: column;
