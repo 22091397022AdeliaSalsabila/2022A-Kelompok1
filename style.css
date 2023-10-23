@@ -178,41 +178,6 @@ header{
 }
 
 
-/***MENU MOBILE***/
-/*.mobile {
-    position: fixed;
-    top: 75px;
-    width: 100%;
-    max-width: 700px;
-    background-color: #F8F4EA;
-    height: 100vh;
-    padding: 20px;
-    box-shadow: none;
-    z-index: 2;
-    margin-left: -10px;
-}
-
-.mobile nav,
-.mobile nav ul{
-    flex-direction: column;
-}
-
-.mobile .inputSearch,
-.mobile form{
-    height: 35px;
-}
-
-.hidden{
-    display: none;
-}
-
-@media all and (min-width: 700px){
-    .mobile{
-        display: none;
-    }
-}*/
-
-
 /***MAIN CSS CARD***/
 
 main{
