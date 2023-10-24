@@ -15,7 +15,14 @@
 
 <div align="justify">
 
-1.	Tujuan
+1.	Pendahuluan
+
+  	Dalam era digital ini, akses cepat dan mudah terhadap berita dan informasi telah menjadi kebutuhan mendasar masyarakat. Dalam menghadapi tuntutan tersebut, kami mempersembahkan Sistem Rekayasa Perangkat Lunak (SRS) untuk pengembangan website surat kabar modern. SRS ini bertujuan untuk merancang dan mengembangkan sebuah platform daring yang memungkinkan akses mudah dan cepat terhadap berita terkini, artikel informatif, serta konten multimedia lainnya. Website ini tidak hanya bertujuan untuk menyajikan berita dengan akurat dan tepercaya, tetapi juga untuk meningkatkan pengalaman pembaca dengan fitur-fitur interaktif dan konten yang mendalam.
+  	Website surat kabar (newspaper) merupakan platform daring yang menyediakan berita, artikel, dan informasi terkini kepada pembaca melalui internet. Berbeda dengan surat kabar tradisional yang dicetak dan didistribusikan, website surat kabar dapat diakses melalui komputer, tablet, atau ponsel pintar dengan koneksi internet.
+Keuntungan utama dari website surat kabar adalah aksesibilitasnya yang luas. Pembaca dapat mengakses berita kapan saja dan di mana saja, selama mereka memiliki akses internet. Website surat kabar juga sering kali menyediakan berbagai fitur tambahan, seperti galeri foto, video, dan komentar pembaca, yang memperkaya pengalaman membaca. Para penerbit surat kabar memanfaatkan teknologi terbaru untuk menyajikan berita secara interaktif, menggunakan elemen animasi. grafis, dan multimedia lainnya untuk membuat pengalaman membaca lebih menarik dan informatif. Penting untuk dicatat bahwa keandalan dan keakuratan berita di website NewsPaper juga merupakan perhatian utama. Oleh karena itu,banyak situs berita memiliki tim editor dan jurnalis profesional yang bertanggung jawab memverivikasi fakta dan memastikan kebenaran informasi yang disajikan oleh pembaca.
+ 
+
+3.	Tujuan
 
 Tujuan utama dari pembuatan website e-newspaper adalah untuk menyediakan akses mudah dan luas kepada berita dan informasi, mencapai pembaca dari berbagai lokasi melalui perangkat digital, meningkatkan interaktivitas dengan pembaca, menghemat biaya operasional, memungkinkan inovasi dalam penyajian konten multimedia, dan memberikan platform untuk pemasaran iklan. Selain itu, e-newspaper juga memiliki keuntungan dalam hal keberlanjutan lingkungan, pemantauan analitik, dan kemampuan untuk berinovasi dalam format dan konten berita.
 
