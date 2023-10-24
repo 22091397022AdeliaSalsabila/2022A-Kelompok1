@@ -1,6 +1,12 @@
 const API_KEY = "165b7f43e35f489f9fb0385aeba7bed3";
 const url = "https://newsapi.org/v2/everything?q=";
 
+//Define the 'users' variable
+const users = [
+  { name: "User 1", comments: ["Comment 1", "Comment 2"] },
+  { name: "User 2", comments: ["Comment 3"] },
+];
+
 async function fetchData(query) {
   try {
     const res = await fetch(`${url}${API_KEY}`);
