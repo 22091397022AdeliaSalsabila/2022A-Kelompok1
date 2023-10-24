@@ -48,3 +48,7 @@ async function Search(query) {
   const data = await fetchData(query);
   renderMain(data.articles);
 }
+
+users.ForEach((user) =>
+  console.log(user.comments?.length)
+);
