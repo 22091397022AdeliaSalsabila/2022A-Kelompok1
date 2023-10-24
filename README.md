@@ -278,6 +278,12 @@ Bagian ini mengatur tampilan halaman kontak kami, termasuk judul, informasi kont
 ![image](https://github.com/22091397022AdeliaSalsabila/2022A-Kelompok1/assets/144690329/02e0e07d-20de-43c4-8080-a00e9402f5c7)
 Ini mengatur tampilan footer yang mencakup tinggi foter, warna latar belakang, dan tampilan teks pada footer.
 
+**Style CSS**
+![image](https://github.com/22091397022AdeliaSalsabila/2022A-Kelompok1/assets/144690329/6a8fcca6-560e-491e-a5b6-b08f3be74e6a)
+box-sizing: border-box; mengatur model kotak (box model) elemen HTML, sehingga lebar dan tinggi elemen termasuk padding dan border, bukan hanya content-nya saja. Ini membantu menghindari masalah dengan perhitungan lebar dan tinggi elemen.
+
+![image](https://github.com/22091397022AdeliaSalsabila/2022A-Kelompok1/assets/144690329/39db2fbf-f8f1-45c2-8a6f-1fe4b4c41703)
+Ini adalah gaya yang memengaruhi elemen <body>, yang merupakan elemen utama di halaman HTML. Ini termasuk mengatur font, ukuran font, margin, dan latar belakang halaman
 
 ### 5.3 Code JavaScript
 1. API_KEY dan URL: Di bagian ini, Anda mendefinisikan API_KEY dan URL yang digunakan untuk mengakses data berita dari NewsAPI.org.
