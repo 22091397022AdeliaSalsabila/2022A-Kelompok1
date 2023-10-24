@@ -2,6 +2,8 @@
   <h1> LAPORAN SRS </h1>
   <h1> PEMROGRAMAN WEB </h1>
   <h1> FOUR.U NEWSPAPER </h1>
+  
+<p> . </p>
 
   <p> Disusun Oleh Kelompok 1 (2022A): </p>
   <p> 1.)	Adelia Salsabila Arifin		      22091397022 </p>
@@ -15,74 +17,72 @@
 
 <div align="justify">
 
-1.	Pendahuluan
+# DAFTAR ISI
+
+* [Bab 1 Pendahuluan](#Bab-1-Pendahuluan)
+* [Bab 2 Deskripsi Keseluruhan](#Bab-1-Pendahuluan)
+* [Bab 3 Kebutuhan Antarmuka Eksternal](#Bab-1-Pendahuluan)
+* [Bab 4 Kebutuhan Fungsional](#Bab-1-Pendahuluan)
+* [Bab 5 Penjelasan HTML, CSS, dan JavaScript](#Bab-1-Pendahuluan)
+
+<div> <p> . </p> </div>
+
+## Bab 1 Pendahuluan
 
 Dalam era digital ini, akses cepat dan mudah terhadap berita dan informasi telah menjadi kebutuhan mendasar masyarakat. Dalam menghadapi tuntutan tersebut, kami mempersembahkan Sistem Rekayasa Perangkat Lunak (SRS) untuk pengembangan website surat kabar modern. SRS ini bertujuan untuk merancang dan mengembangkan sebuah platform daring yang memungkinkan akses mudah dan cepat terhadap berita terkini, artikel informatif, serta konten multimedia lainnya. Website ini tidak hanya bertujuan untuk menyajikan berita dengan akurat dan tepercaya, tetapi juga untuk meningkatkan pengalaman pembaca dengan fitur-fitur interaktif dan konten yang mendalam.
 Website surat kabar (newspaper) merupakan platform daring yang menyediakan berita, artikel, dan informasi terkini kepada pembaca melalui internet. Berbeda dengan surat kabar tradisional yang dicetak dan didistribusikan, website surat kabar dapat diakses melalui komputer, tablet, atau ponsel pintar dengan koneksi internet.
 Keuntungan utama dari website surat kabar adalah aksesibilitasnya yang luas. Pembaca dapat mengakses berita kapan saja dan di mana saja, selama mereka memiliki akses internet. Website surat kabar juga sering kali menyediakan berbagai fitur tambahan, seperti galeri foto, video, dan komentar pembaca, yang memperkaya pengalaman membaca. Para penerbit surat kabar memanfaatkan teknologi terbaru untuk menyajikan berita secara interaktif, menggunakan elemen animasi. grafis, dan multimedia lainnya untuk membuat pengalaman membaca lebih menarik dan informatif. Penting untuk dicatat bahwa keandalan dan keakuratan berita di website NewsPaper juga merupakan perhatian utama. Oleh karena itu,banyak situs berita memiliki tim editor dan jurnalis profesional yang bertanggung jawab memverivikasi fakta dan memastikan kebenaran informasi yang disajikan oleh pembaca.
- 
 
-2. Tujuan
+### 1.1 Tujuan
 
 Tujuan utama dari pembuatan website e-newspaper adalah untuk menyediakan akses mudah dan luas kepada berita dan informasi, mencapai pembaca dari berbagai lokasi melalui perangkat digital, meningkatkan interaktivitas dengan pembaca, menghemat biaya operasional, memungkinkan inovasi dalam penyajian konten multimedia, dan memberikan platform untuk pemasaran iklan. Selain itu, e-newspaper juga memiliki keuntungan dalam hal keberlanjutan lingkungan, pemantauan analitik, dan kemampuan untuk berinovasi dalam format dan konten berita.
 
-3.  Konvensi Dokumen
+### 1.2 Konvensi Dokumen
 
 Konvensi Dokumen website newspaper melibatkan beberapa elemen penting yang harus dipertimbangkan untuk memastikan website tersebut informatif, mudah dinavigasi, dan ramah pengguna. Beberapa konvensi umum meliputi:
 
-- Header
-Menyediakan logo media, menu navigasi utama, dan bagian pencarian agar pengguna dapat dengan mudah menemukan informasi yang mereka cari.
-- Berita Utama
-Menyajikan berita terkini dan paling penting pada halaman utama untuk menarik perhatian pengunjung.
-- Kategori Berita
-Mengelompokkan berita ke dalam kategori seperti politik, bisnis, hiburan, olahraga, dll., sehingga pengunjung dapat memilih topik yang diminati.
-- Artikel
-Menulis artikel dengan bahasa yang jelas dan informatif, serta menyertakan gambar atau video pendukung untuk menjelaskan berita dengan lebih baik.
-- Galeri Foto dan Video
-Menyajikan galeri foto dan video terkait berita atau acara terbaru.
-- Halaman Penulis
-Profil penulis dan kontributor untuk memberi pengunjung informasi tentang latar belakang dan keahlian penulis.
-- Komentar dan Umpan Balik
-Memberikan ruang bagi pengunjung untuk memberikan komentar, tanggapan, atau umpan balik terhadap artikel.
-- Kontak
-Menyediakan informasi kontak, seperti alamat email atau formulir kontak, agar pengunjung dapat menghubungi redaksi atau penulis.
-- Responsif dan Ramah Mobile
-Memastikan website dapat diakses dengan baik melalui perangkat mobile seperti smartphone dan tablet.
-- SEO Friendly
-Mengoptimalkan konten untuk mesin pencari (SEO) agar website mudah ditemukan oleh pengguna yang mencari berita terkait topik tertentu.
-- Kecepatan Loading
-Memastikan website memuat dengan cepat untuk memberikan pengalaman browsing yang lancar kepada pengunjung.
+- **Header** : Menyediakan logo media, menu navigasi utama, dan bagian pencarian agar pengguna dapat dengan mudah menemukan informasi yang mereka cari.
+- **Berita Utama** : Menyajikan berita terkini dan paling penting pada halaman utama untuk menarik perhatian pengunjung.
+- **Kategori Berita** : Mengelompokkan berita ke dalam kategori seperti teknologi, ekonomi, hiburan, olahraga, dll., sehingga pengunjung dapat memilih topik yang diminati.
+- **Artikel** : Menulis artikel dengan bahasa yang jelas dan informatif, serta menyertakan gambar atau video pendukung untuk menjelaskan berita dengan lebih baik.
+- **Halaman Penulis** : Profil penulis dan kontributor untuk memberi pengunjung informasi tentang latar belakang dan keahlian penulis.
+- **Komentar dan Umpan Balik** : Memberikan ruang bagi pengunjung untuk memberikan komentar, tanggapan, atau umpan balik terhadap artikel yang dapat diakses melalui formulir kontak.
+- **Kontak** : Menyediakan informasi kontak, seperti alamat email atau formulir kontak, agar pengunjung dapat menghubungi redaksi atau penulis.
+- **Responsif dan Ramah Mobile** : Memastikan website dapat diakses dengan baik melalui perangkat mobile seperti smartphone dan tablet.
+- **SEO Friendly** : Mengoptimalkan konten untuk mesin pencari (SEO) agar website mudah ditemukan oleh pengguna yang mencari berita terkait topik tertentu.
+- **Kecepatan Loading** : Memastikan website memuat dengan cepat untuk memberikan pengalaman browsing yang lancar kepada pengunjung.
 - Navigasi yang Jelas
 Menyediakan navigasi yang intuitif dan mudah dipahami sehingga pengunjung dapat dengan mudah beralih antara halaman-halaman berbeda.
 Mematuhi konvensi-konvensi ini akan membantu menciptakan pengalaman pengguna yang baik dan meningkatkan kredibilitas serta daya tarik website newspaper Anda.
 
-4. Audiens yang Dituju dan Saran Bacaan
+### 1.3 Audiens yang Dituju dan Saran Bacaan
    
 Website ini ditujukan kepada seluruh masyarakat, terutama anak muda dari sekolah dasar hingga yang sudah bekerja.
 
-5. Deskripsi Produk:
+### 1.4 Lingkup Produk
 
-Selamat datang di situs web berita terkini kami, tempatnya untuk mendapatkan informasi terbaru dan terpercaya dari seluruh penjuru dunia. Situs web berita kami didedikasikan untuk memberikan Anda akses cepat dan mudah ke berita terkini tentang politik, bisnis, teknologi, kesehatan, hiburan, dan topik-topik lainnya yang relevan.
-
-Fitur Utama:
-
-- Berita Terkini: Kami menyajikan berita terbaru dan terkini setiap hari, memberi Anda pemahaman mendalam tentang peristiwa terkini di seluruh dunia.
-- Ketepatan dan Keandalan: Informasi yang kami sajikan dijamin akurat dan terpercaya, didukung oleh tim jurnalis profesional kami yang selalu bekerja keras untuk memberikan berita terbaik kepada Anda.
-- Beragam Topik: Situs web kami mencakup berbagai topik mulai dari politik, ekonomi, hiburan, hingga teknologi. Anda dapat menemukan semua informasi yang Anda butuhkan dalam satu tempat.
-- Tata Letak Responsif: Desain responsif situs web kami memastikan pengalaman penjelajahan yang mulus, baik Anda mengaksesnya melalui komputer, tablet, atau ponsel pintar.
-- Pencarian Cepat: Gunakan fitur pencarian kami untuk dengan mudah menemukan berita atau artikel tentang topik spesifik yang Anda minati.
-- Berita Terkini Langsung ke Email Anda: Berlangganan buletin berita kami dan dapatkan ringkasan berita terkini langsung di kotak masuk email Anda setiap hari.
-
-6. Lingkup Produk
-   
 Adapun ruang lingkup pembuatan software ini yaitu aplikasi berbasis website yang memiliki beberapa fasilitas berupa :
 - Sistem mampu menampilkan halaman sesuai dengan berita yang ingin dilihat oleh pengguna
 - Sistem mampu menyimpan berita sesuai dengan apa yang administrator unggah
 - Sistem mampu menampilkan quiz sesuai dengan apa yang administrator unggah
 - Sistem mampu membedakan mana administrator dan pengguna ketika melakukan login ataupun signup
-- Sistem mampu melakukan maintenance untuk pemeliharaan 
+- Sistem mampu melakukan maintenance untuk pemeliharaan
 
-7. Fungsi Produk
+<div> <p> . </p> </div>
+
+## Bab 2 Deskripsi Keseluruhan
+
+### 2.1 Deskripsi Produk
+
+Adapun deskripi produk pembuatan website yang diringkas dalam fitur-fitur utamanya :
+- **Berita Terkini**: Kami menyajikan berita terbaru dan terkini setiap hari, memberi Anda pemahaman mendalam tentang peristiwa terkini di seluruh dunia.
+- **Ketepatan dan Keandalan**: Informasi yang kami sajikan dijamin akurat dan terpercaya, didukung oleh tim jurnalis profesional kami yang selalu bekerja keras untuk memberikan berita terbaik kepada Anda.
+- **Beragam Topik** : Situs web kami mencakup berbagai topik mulai dari politik, ekonomi, hiburan, hingga teknologi. Anda dapat menemukan semua informasi yang Anda butuhkan dalam satu tempat.
+- **Tata Letak Responsif** : Desain responsif situs web kami memastikan pengalaman penjelajahan yang mulus, baik Anda mengaksesnya melalui komputer, tablet, atau ponsel pintar.
+- **Pencarian Cepat** : Gunakan fitur pencarian kami untuk dengan mudah menemukan berita atau artikel tentang topik spesifik yang Anda minati.
+- **Berita Terkini Langsung ke Email Anda** : Berlangganan buletin berita kami dan dapatkan ringkasan berita terkini langsung di kotak masuk email Anda setiap hari.
+
+### 2.2 Fungsi Produk
 
 Fungsi utama dari sistem ScriptKu - Website News-Paper yang dibangun antara lain :
 Publikasi Artikel :
@@ -106,17 +106,7 @@ Memastikan keamanan data pengguna dan menyajikan berita yang akurat, terpercaya,
 Analisis Pengguna :
 Mengumpulkan data pengguna untuk memahami perilaku pembaca, membantu meningkatkan konten, dan memberikan pengalaman yang lebih baik.
 
-8. Kelas dan Karakteristik Pengguna
-
-Dalam sistem di ScriptKu – Website NewsPaper, ada beberapa pengguna yang terlibat yaitu sebagai berikut :
-
-Administrator
-Administrator bisa memiliki banyak fungsi, yaitu dapat mengupload materi yang akan disajikan di halaman website ScriptKu, dan melakukan manajemen quiz dengan mengelola quiz apa saja yang akan ditampilkan sesuai dengan bahasa pemrograman yang akan dipelajari oleh pengguna.
-
-Pembaca aktif(pengguna website)
-User atau pengguna mempunyai akses untuk melihat dan mencari materi, dan user juga dapat mendownload materi tersebut yang nantinya bisa dipelajari secara offline. pengguna bisa mengakses berbagai berita online untuk tetap terinformasi tentang berbagai topik termasuk berita terkini, politik, olahraga, dan hiburan.
-
-9. Lingkup Operasi
+### 2.3 Lingkup Operasi
 
 Pengelolaan Konten:
 Pembuatan, penyuntingan, dan penjadwalan artikel berita, serta pengelolaan multimedia seperti foto dan video.
@@ -139,20 +129,39 @@ Mendorong partisipasi pembaca melalui komentar, surat pembaca, dan tanggapan ter
 Kerjasama dengan Pembuat Konten :
 Melibatkan wartawan, penulis, fotografer, dan kreator konten lainnya untuk menyediakan berita berkualitas.
 
+### 2.4 Kelas dan Karakteristik Pengguna
 
-2.	Lampiran
-   
-a.	Flowchart Website E-Newspaper
+Dalam sistem di ScriptKu – Website NewsPaper, ada beberapa pengguna yang terlibat yaitu sebagai berikut :
+
+Administrator
+Administrator bisa memiliki banyak fungsi, yaitu dapat mengupload materi yang akan disajikan di halaman website ScriptKu, dan melakukan manajemen quiz dengan mengelola quiz apa saja yang akan ditampilkan sesuai dengan bahasa pemrograman yang akan dipelajari oleh pengguna.
+
+Pembaca aktif(pengguna website)
+User atau pengguna mempunyai akses untuk melihat dan mencari materi, dan user juga dapat mendownload materi tersebut yang nantinya bisa dipelajari secara offline. pengguna bisa mengakses berbagai berita online untuk tetap terinformasi tentang berbagai topik termasuk berita terkini, politik, olahraga, dan hiburan.
+
+<div> <p> . </p> </div>
+
+## Bab 3 Kebutuhan Antarmuka Eksternal
+
+<div> <p> . </p> </div>
+
+## Bab 4 Kebutuhan Fungsional
+
+### 4.1 Flowchart
 
 ![image](https://github.com/66adelia66/2022A-Kelompok1/assets/124540149/4d209929-ce93-4acb-94ea-feebd20efeef)
 
-b.	Use Case Website E-Newspaper
+### 4.2 Use Case
 
 ![image](https://github.com/66adelia66/2022A-Kelompok1/assets/124540149/cf93efe7-da2d-464f-a2e2-b3c7122833f1)
 
-Code HTML:
+<div> <p> . </p> </div>
 
-about.hmtl :
+## Bab 5 Penjelasan HTML CSS dan JavaScript
+
+### 5.1 Code HTML
+
+***about.hmtl :***
 1.	!DOCTYPE html: Adalah deklarasi tipe dokumen HTML yang memberitahukan browser bahwa halaman ini adalah dokumen HTML.
 2. html lang=en: Adalah elemen root yang mengelilingi seluruh dokumen HTML. Atribut lang digunakan untuk menentukan bahasa dokumen, dalam hal ini, bahasa yang digunakan adalah bahasa Inggris.
 3.	head: Bagian ini berisi informasi-informasi meta dan tautan ke berkas-berkas eksternal yang akan digunakan oleh halaman web.
@@ -174,7 +183,7 @@ about.hmtl :
 19. footer: Adalah bagian bawah halaman yang berisi informasi hak cipta dan kredit desain.
 20. div 'class="container-footer": Adalah div yang berisi teks hak cipta dan kredit desain.
 
-contact.html :
+***contact.html :***
 1.	section 'class="contact": Adalah elemen yang menandai bagian "Contact Us" di halaman. Ini digunakan untuk                  mengelompokkan konten yang berkaitan dengan kontak.
 2.	div 'class="container": Adalah wadah untuk mengelompokkan elemen-elemen dalam bagian "Contact Us."
 3.	Informasi Kontak:
@@ -187,13 +196,15 @@ contact.html :
 9. Di dalam setiap elemen input ada elemen <span> yang menampilkan label yang menghilang ketika pengguna mulai memasukkan     data.
 10.Elemen input dengan tipe "submit" digunakan untuk mengirim formulir.
 
-
-Index.html:
+***index.html:***
 1.	main></main: Adalah elemen main yang memungkinkan Anda menempatkan konten utama dari halaman web. 
 2.	script 'src="script.js"'/script: Adalah elemen <script> yang menghubungkan ke berkas JavaScript eksternal dengan nama "'script.js." Ini mengindikasikan bahwa ada skrip JavaScript yang akan dijalankan untuk mengatur perilaku halaman. 
 3.	footer: Adalah bagian bawah halaman web yang berisi informasi hak cipta. Seperti sebelumnya, elemen ini memiliki teks hak cipta "Copyright©2023 Design by: FOUR.U."
 
-Code JavaScript :
+### 5.2 Code CSS
+
+
+### 5.3 Code JavaScript
 1. API_KEY dan URL: Di bagian ini, Anda mendefinisikan API_KEY dan URL yang digunakan untuk mengakses data berita dari NewsAPI.org.
 2. Array 'users': Anda mendefinisikan array 'users' yang berisi objek-objek pengguna dengan properti 'name' dan 'comments'.
 3. fetchData(): Ini adalah fungsi yang mengambil data dari API NewsAPI.org. Anda menggunakan fetch untuk mengirim permintaan HTTP dan mengambil data JSON. Jika ada kesalahan selama pengambilan data, kode juga menangani kesalahan tersebut.
