@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FOUR.U</title>
-
+    
     <!--font awesome-->
     <link 
       rel="stylesheet" 
@@ -24,18 +24,72 @@
     />
 
     <!--css style-->
-    <link rel="stylesheet" href="./style.css" />    
+    <link rel="stylesheet" href="./about.css" />
 </head>
+
 <body>
-    
     <header>
         <img src="./FOURU.png" width="150px">
+
+        <!--NAVBAR HEADER-->
+
+        <div class="menu-bar">
+            <ul>
+                <li><a href="index.html">HOME<i class="fas fa-caret-down"></i></a>
+                    
+                    <div class="dropdown-menu">
+                        <ul>
+                            <li onclick="Search('Tren')"><a href="#">Tren</a></li>
+                            <li onclick="Search('Teknologi')"><a href="#">Teknologi</a></li>
+                            <li onclick="Search('Ekonomi')"><a href="#">Ekonomi</a></li>
+                            <li onclick="Search('Olahraga')"><a href="#">Olahraga</a></li>
+                            <li onclick="Search('Lifestyle')"><a href="#">Lifestyle</a></li>
+                        </ul>
+                    </div>
+                </li>
+                
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="contact.html">CONTACT </a>
+    
+            </ul>
+        </div>
+
+        <div class="inputSearch">
+            <form id="searchForm" class="searchForm">
+                <input type="text" placeholder="Type to search...." id="searchInput" class="searchInput"/>
+                <label for="searchInput" class="icon"><i class="fa-solid fa-search"></i></label>
+            </form>
+        </div>
 
     </header>
 
 
+        <!--ABOUT-->
 
-    <!--footer-->
+        <div class="heading">
+            <h1>About Us</h1>
+            <p>FOUR.U Newspaper merupakan laman koran digital yang 
+            dapat diakses secara mudah oleh semua kalangan</p>
+        </div>
+
+        <div class="container">
+            <section class="about">
+                <div class="about-image">
+                    <img src="./FOURU.png">
+                </div>
+
+                <div class="about-content">
+                    <p>Filosofi nama website ini diambil dari developer website FOUR.U Newspaper yang berjumlah empat orang. 
+                    Selanjutnya kata 'Four U'  yang diserap dari kata 'For You' dalam Bahasa Inggris memiliki arti yang sama yaitu, untukmu. 
+                    Dengan harapan website FOUR.U Newspaper dapat memberikan berita yang bermanfaat, personal, dan relevan bagi setiap pembaca.</p>
+                    <a href="team.html" class="read-more">Read More</a>
+                </div>
+            </section>
+        </div>
+
+
+    <!--FOOTER-->
+
     <footer>
         <div class="container-footer">
             <h1 class="h1-footer">Copyright©2023 Design by: FOUR.U</h1>
