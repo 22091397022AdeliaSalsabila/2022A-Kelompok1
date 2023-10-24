@@ -51,45 +51,58 @@ Sistem mampu melakukan maintenance untuk pemeliharaan
 Fungsi Produk
 
 Fungsi utama dari sistem ScriptKu - Website News-Paper yang dibangun antara lain :
-Publikasi Artikel : Menampilkan artikel berita, opini, dan cerita terkini kepada pembaca.
-Kategori dan Topik : Mengorganisasi artikel ke dalam kategori atau topik tertentu seperti politik, bisnis, hiburan, olahraga, dan lainnya untuk memudahkan pembaca menemukan konten yang diminati.
-Arsip : Menyimpan artikel-artikel yang sudah diterbitkan agar pembaca dapat mengakses berita terdahulu.
-Multimedia: Menampilkan foto, video, dan infografis yang mendukung berita untuk memberikan pengalaman visual kepada pembaca.
-Interaktivitas: Memungkinkan pembaca untuk memberikan komentar, berbagi artikel melalui media sosial, dan terlibat dalam diskusi melalui forum atau kolom komentar.
-Responsif dan Desain yang Ramah Pengguna: Memastikan website dapat diakses dengan baik melalui berbagai perangkat, termasuk komputer desktop, tablet, dan ponsel pintar. Desain yang baik juga memastikan pengalaman pengguna yang nyaman.
-Pencarian: Menyediakan fasilitas pencarian agar pembaca dapat mencari artikel berdasarkan kata kunci atau topik tertentu.
-Berlangganan dan Pemberitahuan: Memberikan opsi kepada pengunjung untuk berlangganan newsletter atau menerima pemberitahuan tentang berita terbaru melalui email atau ponsel.
-Keamanan dan Kredibilitas: Memastikan keamanan data pengguna dan menyajikan berita yang akurat, terpercaya, dan bebas dari hoaks atau informasi palsu.
-Analisis Pengguna: Mengumpulkan data pengguna untuk memahami perilaku pembaca, membantu meningkatkan konten, dan memberikan pengalaman yang lebih baik.
+Publikasi Artikel :
+Menampilkan artikel berita, opini, dan cerita terkini kepada pembaca.
+Kategori dan Topik :
+Mengorganisasi artikel ke dalam kategori atau topik tertentu seperti politik, bisnis, hiburan, olahraga, dan lainnya untuk memudahkan pembaca menemukan konten yang diminati.
+Arsip : 
+Menyimpan artikel-artikel yang sudah diterbitkan agar pembaca dapat mengakses berita terdahulu.
+Multimedia :
+Menampilkan foto, video, dan infografis yang mendukung berita untuk memberikan pengalaman visual kepada pembaca.
+Interaktivitas :
+Memungkinkan pembaca untuk memberikan komentar, berbagi artikel melalui media sosial, dan terlibat dalam diskusi melalui forum atau kolom komentar.
+Responsif dan Desain yang Ramah Pengguna :
+Memastikan website dapat diakses dengan baik melalui berbagai perangkat, termasuk komputer desktop, tablet, dan ponsel pintar. Desain yang baik juga memastikan pengalaman pengguna yang nyaman.
+Pencarian : 
+Menyediakan fasilitas pencarian agar pembaca dapat mencari artikel berdasarkan kata kunci atau topik tertentu.
+Berlangganan dan Pemberitahuan : 
+Memberikan opsi kepada pengunjung untuk berlangganan newsletter atau menerima pemberitahuan tentang berita terbaru melalui email atau ponsel.
+Keamanan dan Kredibilitas :
+Memastikan keamanan data pengguna dan menyajikan berita yang akurat, terpercaya, dan bebas dari hoaks atau informasi palsu.
+Analisis Pengguna :
+Mengumpulkan data pengguna untuk memahami perilaku pembaca, membantu meningkatkan konten, dan memberikan pengalaman yang lebih baik.
 
 Kelas dan Karakteristik Pengguna
 
 Dalam sistem di ScriptKu – Website NewsPaper, ada beberapa pengguna yang terlibat yaitu sebagai berikut :
+
 Administrator
 Administrator bisa memiliki banyak fungsi, yaitu dapat mengupload materi yang akan disajikan di halaman website ScriptKu, dan melakukan manajemen quiz dengan mengelola quiz apa saja yang akan ditampilkan sesuai dengan bahasa pemrograman yang akan dipelajari oleh pengguna.
+
 Pembaca aktif(pengguna website)
 User atau pengguna mempunyai akses untuk melihat dan mencari materi, dan user juga dapat mendownload materi tersebut yang nantinya bisa dipelajari secara offline. pengguna bisa mengakses berbagai berita online untuk tetap terinformasi tentang berbagai topik termasuk berita terkini, politik, olahraga, dan hiburan.
 
 Lingkup Operasi
+
 Pengelolaan Konten:
 Pembuatan, penyuntingan, dan penjadwalan artikel berita, serta pengelolaan multimedia seperti foto dan video.
-Desain dan Pengalaman Pengguna: 
+Desain dan Pengalaman Pengguna : 
 Perancangan antarmuka pengguna yang responsif dan ramah pengguna agar pengunjung dapat dengan mudah menavigasi situs, membaca berita, dan berinteraksi dengan konten.
-Pengelolaan Pengguna:
+Pengelolaan Pengguna :
 Manajemen pengguna yang melibatkan registrasi, login, dan kontrol akses, serta pengelolaan komentar dan interaksi pengguna lainnya.
-Teknologi dan Pengembangan:
+Teknologi dan Pengembangan :
 Penggunaan teknologi web terkini, keamanan informasi, serta pengembangan dan pemeliharaan situs.
-Optimasi Mesin Pencari (SEO):
+Optimasi Mesin Pencari (SEO) :
 Meningkatkan visibilitas situs di mesin pencari agar lebih mudah ditemukan oleh orang yang mencari berita tentang topik tertentu.
-Analisis dan Data Pengguna:
+Analisis dan Data Pengguna :
 Mengumpulkan dan menganalisis data pengguna untuk memahami perilaku pengunjung, preferensi konten, dan memperbaiki pengalaman pengguna.
-Keberlanjutan Konten:
+Keberlanjutan Konten :
 Memastikan adanya alur berita yang konsisten dan relevan, serta pengelolaan arsip artikel.
-Keamanan dan Perlindungan Data:
+Keamanan dan Perlindungan Data :
 Memastikan keamanan situs terhadap ancaman keamanan siber dan melindungi data pengguna yang disimpan di situs.
-Interaksi dengan Pembaca:
+Interaksi dengan Pembaca :
 Mendorong partisipasi pembaca melalui komentar, surat pembaca, dan tanggapan terhadap masukan pembaca.
-Kerjasama dengan Pembuat Konten:
+Kerjasama dengan Pembuat Konten :
 Melibatkan wartawan, penulis, fotografer, dan kreator konten lainnya untuk menyediakan berita berkualitas.
 
 
