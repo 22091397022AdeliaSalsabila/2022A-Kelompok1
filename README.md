@@ -340,6 +340,24 @@ Ini adalah pengaturan untuk elemen header halaman web
 ![image](https://github.com/22091397022AdeliaSalsabila/2022A-Kelompok1/assets/144690329/b3a4f381-70c8-45a7-9eaf-5e13f7e7a26b)
 Ini adalah pengaturan untuk elemen dropdown dalam menu navigasi
 
+![image](https://github.com/22091397022AdeliaSalsabila/2022A-Kelompok1/assets/144690329/1f87f08f-5c80-4cff-9125-f495d1269687)
+![image](https://github.com/22091397022AdeliaSalsabila/2022A-Kelompok1/assets/144690329/4ca2567b-2a2a-4f18-b806-4cddceb7a7ea)
+Ini adalah pengaturan untuk elemen pencarian di halaman web
+
+![image](https://github.com/22091397022AdeliaSalsabila/2022A-Kelompok1/assets/144690329/238f880e-bab5-417d-8b06-dee834ae6c4d)
+![image](https://github.com/22091397022AdeliaSalsabila/2022A-Kelompok1/assets/144690329/ed675bce-89f7-45ae-bbc0-7a119777c62a)
+-	.team { ... }: Ini adalah pengaturan untuk elemen yang membungkus konten tentang tim
+-	.team-content { ... }: Ini adalah pengaturan untuk konten tim, seperti foto anggota tim dan deskripsi tim
+-	.team-content img { ... }: Ini adalah pengaturan untuk gambar anggota tim dalam konten tim
+-	.center h1 { ... }: Ini adalah pengaturan untuk judul dalam konten tim
+-	.center h1::after { ... }: Ini adalah pengaturan untuk elemen yang berada setelah judul dalam konten tim
+-	.box { ... }: Ini adalah pengaturan untuk elemen kotak yang mungkin digunakan untuk menampilkan informasi anggota tim
+-	.box h3 { ... }: Ini adalah pengaturan untuk judul dalam kotak yang mungkin berisi informasi tentang anggota tim
+-	.box h5 { ... }: Ini adalah pengaturan untuk subjudul dalam kotak yang mungkin berisi informasi anggota tim
+-	.icons i { ... }: Ini adalah pengaturan untuk ikon-ikon yang mungkin digunakan dalam kotak
+
+![image](https://github.com/22091397022AdeliaSalsabila/2022A-Kelompok1/assets/144690329/efaf4d5b-106a-4a7c-bceb-a33554248998)
+Ini adalah pengaturan untuk elemen footer pada halaman web
 
 
 
