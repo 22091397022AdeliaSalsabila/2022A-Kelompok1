@@ -162,22 +162,6 @@ header{
 }
 
 
-/**MENU FOOTER**/
-
-.container-footer{
-    height: 7vh;
-    background-color: #E1D7C6;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.h1-footer{
-    font-size: 15px;
-    color: #146C94;
-}
-
-
 /***MAIN CSS CARD***/
 
 main{
@@ -251,5 +235,21 @@ main{
     .card h4,
     .card div{
         padding: 5px 15px;
+    }
 }
+
+
+/**MENU FOOTER**/
+
+.container-footer{
+    height: 7vh;
+    background-color: #E1D7C6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1-footer{
+    font-size: 15px;
+    color: #146C94;
 }
