@@ -53,7 +53,7 @@ Mematuhi konvensi-konvensi ini akan membantu menciptakan pengalaman pengguna yan
    
 Website ini ditujukan kepada seluruh masyarakat, terutama anak muda dari sekolah dasar hingga yang sudah bekerja.
 
-5. Lingkup Produk
+4. Lingkup Produk
    
 Adapun ruang lingkup pembuatan software ini yaitu aplikasi berbasis website yang memiliki beberapa fasilitas berupa :
 Sistem mampu menampilkan halaman sesuai dengan berita yang ingin dilihat oleh pengguna
@@ -62,7 +62,7 @@ Sistem mampu menampilkan quiz sesuai dengan apa yang administrator unggah
 Sistem mampu membedakan mana administrator dan pengguna ketika melakukan login ataupun signup
 Sistem mampu melakukan maintenance untuk pemeliharaan 
 
-6. Fungsi Produk
+5. Fungsi Produk
 
 Fungsi utama dari sistem ScriptKu - Website News-Paper yang dibangun antara lain :
 Publikasi Artikel :
@@ -86,7 +86,7 @@ Memastikan keamanan data pengguna dan menyajikan berita yang akurat, terpercaya,
 Analisis Pengguna :
 Mengumpulkan data pengguna untuk memahami perilaku pembaca, membantu meningkatkan konten, dan memberikan pengalaman yang lebih baik.
 
-7. Kelas dan Karakteristik Pengguna
+6. Kelas dan Karakteristik Pengguna
 
 Dalam sistem di ScriptKu – Website NewsPaper, ada beberapa pengguna yang terlibat yaitu sebagai berikut :
 
@@ -96,7 +96,7 @@ Administrator bisa memiliki banyak fungsi, yaitu dapat mengupload materi yang ak
 Pembaca aktif(pengguna website)
 User atau pengguna mempunyai akses untuk melihat dan mencari materi, dan user juga dapat mendownload materi tersebut yang nantinya bisa dipelajari secara offline. pengguna bisa mengakses berbagai berita online untuk tetap terinformasi tentang berbagai topik termasuk berita terkini, politik, olahraga, dan hiburan.
 
-8. Lingkup Operasi
+7. Lingkup Operasi
 
 Pengelolaan Konten:
 Pembuatan, penyuntingan, dan penjadwalan artikel berita, serta pengelolaan multimedia seperti foto dan video.
