@@ -257,6 +257,27 @@ Ini mengatur tampilan elemen header, termasuk latar belakang, tinggi, dan bayang
 ![image](https://github.com/22091397022AdeliaSalsabila/2022A-Kelompok1/assets/144690329/79245176-3a85-4575-864f-85c2849ce445)
 Bagian ini mengatur tampilan menu bar, termasuk tautan menu, tautan dropdown, dan efek hover saat tautan diklik atau disorot oleh kursor
 
+![image](https://github.com/22091397022AdeliaSalsabila/2022A-Kelompok1/assets/144690329/58aeba71-6f10-4570-8446-b3fd4aa3c558)
+![image](https://github.com/22091397022AdeliaSalsabila/2022A-Kelompok1/assets/144690329/5e1f60e1-4ef9-463c-82e8-175eb816ab1d)
+Ini mengatur tampilan kotak pencarian di halaman web. Ini termasuk input pencarian, ikon pencarian, dan efek hover saat input mendapatkan fokus.
+
+![image](https://github.com/22091397022AdeliaSalsabila/2022A-Kelompok1/assets/144690329/d99d5abf-dfdf-4ee8-8592-1de31533c6dd)
+![image](https://github.com/22091397022AdeliaSalsabila/2022A-Kelompok1/assets/144690329/e3f72c71-b37b-4164-8e04-6fbe509d76ad)
+![image](https://github.com/22091397022AdeliaSalsabila/2022A-Kelompok1/assets/144690329/ce3c5c7b-3e2b-4ea0-b4da-993e6fa2bfcf)
+Bagian ini mengatur tampilan halaman kontak kami, termasuk judul, informasi kontak, dan formulir kontak
+-	.contact: Ini adalah selector untuk elemen dengan kelas CSS "contact." Biasanya, ini akan merujuk pada halaman "Kontak Kami" di situs web.
+-	position: relative;: Mengatur posisi elemen "contact" menjadi relatif terhadap posisi aslinya. Ini dapat memengaruhi pengaturan posisi elemen-elemen anak di dalamnya.
+-	min-height: 100vh;: Ini mengatur tinggi minimum elemen "contact" menjadi setidaknya tinggi viewport (1vh adalah 1% dari tinggi viewport). Ini memastikan bahwa elemen "contact" akan memenuhi setidaknya seluruh tinggi layar, bahkan jika kontennya kurang.
+-	padding: 50px 100px;: Mengatur jarak (padding) di sekitar elemen "contact." 50px adalah padding atas dan bawah, sedangkan 100px adalah padding kanan dan kiri. Ini memberikan ruang putih di sekitar elemen.
+-	display: flex;: Mengatur elemen "contact" menjadi tampilan fleksibel, yang berguna untuk mengatur posisi dan tata letak elemen anak di dalamnya.
+-	justify-content: center;: Mengatur posisi elemen anak secara horizontal agar berada di tengah elemen "contact." Ini akan membuat kontennya berada di tengah halaman.
+-	align-items: center;: Mengatur posisi elemen anak secara vertikal agar berada di tengah elemen "contact."
+-	flex-direction: column;: Mengatur tata letak elemen anak di dalam "contact" agar berada dalam satu kolom vertikal, yang biasanya digunakan untuk halaman kontak agar kontennya lebih mudah dibaca.
+-	background-color: #F8F4EA;: Mengatur latar belakang elemen "contact" menjadi warna abu-abu muda.
+
+![image](https://github.com/22091397022AdeliaSalsabila/2022A-Kelompok1/assets/144690329/02e0e07d-20de-43c4-8080-a00e9402f5c7)
+Ini mengatur tampilan footer yang mencakup tinggi foter, warna latar belakang, dan tampilan teks pada footer.
+
 
 ### 5.3 Code JavaScript
 1. API_KEY dan URL: Di bagian ini, Anda mendefinisikan API_KEY dan URL yang digunakan untuk mengakses data berita dari NewsAPI.org.
