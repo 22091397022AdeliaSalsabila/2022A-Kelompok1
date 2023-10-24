@@ -22,11 +22,11 @@
 Keuntungan utama dari website surat kabar adalah aksesibilitasnya yang luas. Pembaca dapat mengakses berita kapan saja dan di mana saja, selama mereka memiliki akses internet. Website surat kabar juga sering kali menyediakan berbagai fitur tambahan, seperti galeri foto, video, dan komentar pembaca, yang memperkaya pengalaman membaca. Para penerbit surat kabar memanfaatkan teknologi terbaru untuk menyajikan berita secara interaktif, menggunakan elemen animasi. grafis, dan multimedia lainnya untuk membuat pengalaman membaca lebih menarik dan informatif. Penting untuk dicatat bahwa keandalan dan keakuratan berita di website NewsPaper juga merupakan perhatian utama. Oleh karena itu,banyak situs berita memiliki tim editor dan jurnalis profesional yang bertanggung jawab memverivikasi fakta dan memastikan kebenaran informasi yang disajikan oleh pembaca.
  
 
-3.	Tujuan
+2. Tujuan
 
 Tujuan utama dari pembuatan website e-newspaper adalah untuk menyediakan akses mudah dan luas kepada berita dan informasi, mencapai pembaca dari berbagai lokasi melalui perangkat digital, meningkatkan interaktivitas dengan pembaca, menghemat biaya operasional, memungkinkan inovasi dalam penyajian konten multimedia, dan memberikan platform untuk pemasaran iklan. Selain itu, e-newspaper juga memiliki keuntungan dalam hal keberlanjutan lingkungan, pemantauan analitik, dan kemampuan untuk berinovasi dalam format dan konten berita.
 
-2. Konvensi Dokumen
+3.  Konvensi Dokumen
 
 Konvensi Dokumen website newspaper melibatkan beberapa elemen penting yang harus dipertimbangkan untuk memastikan website tersebut informatif, mudah dinavigasi, dan ramah pengguna. Beberapa konvensi umum meliputi:
 
@@ -56,11 +56,11 @@ Memastikan website memuat dengan cepat untuk memberikan pengalaman browsing yang
 Menyediakan navigasi yang intuitif dan mudah dipahami sehingga pengunjung dapat dengan mudah beralih antara halaman-halaman berbeda.
 Mematuhi konvensi-konvensi ini akan membantu menciptakan pengalaman pengguna yang baik dan meningkatkan kredibilitas serta daya tarik website newspaper Anda.
 
-3. Audiens yang Dituju dan Saran Bacaan
+4. Audiens yang Dituju dan Saran Bacaan
    
 Website ini ditujukan kepada seluruh masyarakat, terutama anak muda dari sekolah dasar hingga yang sudah bekerja.
 
-4. Lingkup Produk
+5. Lingkup Produk
    
 Adapun ruang lingkup pembuatan software ini yaitu aplikasi berbasis website yang memiliki beberapa fasilitas berupa :
 Sistem mampu menampilkan halaman sesuai dengan berita yang ingin dilihat oleh pengguna
@@ -69,7 +69,7 @@ Sistem mampu menampilkan quiz sesuai dengan apa yang administrator unggah
 Sistem mampu membedakan mana administrator dan pengguna ketika melakukan login ataupun signup
 Sistem mampu melakukan maintenance untuk pemeliharaan 
 
-5. Fungsi Produk
+6. Fungsi Produk
 
 Fungsi utama dari sistem ScriptKu - Website News-Paper yang dibangun antara lain :
 Publikasi Artikel :
@@ -93,7 +93,7 @@ Memastikan keamanan data pengguna dan menyajikan berita yang akurat, terpercaya,
 Analisis Pengguna :
 Mengumpulkan data pengguna untuk memahami perilaku pembaca, membantu meningkatkan konten, dan memberikan pengalaman yang lebih baik.
 
-6. Kelas dan Karakteristik Pengguna
+7. Kelas dan Karakteristik Pengguna
 
 Dalam sistem di ScriptKu – Website NewsPaper, ada beberapa pengguna yang terlibat yaitu sebagai berikut :
 
@@ -103,7 +103,7 @@ Administrator bisa memiliki banyak fungsi, yaitu dapat mengupload materi yang ak
 Pembaca aktif(pengguna website)
 User atau pengguna mempunyai akses untuk melihat dan mencari materi, dan user juga dapat mendownload materi tersebut yang nantinya bisa dipelajari secara offline. pengguna bisa mengakses berbagai berita online untuk tetap terinformasi tentang berbagai topik termasuk berita terkini, politik, olahraga, dan hiburan.
 
-7. Lingkup Operasi
+8. Lingkup Operasi
 
 Pengelolaan Konten:
 Pembuatan, penyuntingan, dan penjadwalan artikel berita, serta pengelolaan multimedia seperti foto dan video.
