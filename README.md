@@ -162,18 +162,18 @@ about.hmtl :
 20. div 'class="container-footer": Adalah div yang berisi teks hak cipta dan kredit desain.
 
 contact.html :
-1.	section 'class="contact": Adalah elemen yang menandai bagian "Contact Us" di halaman. Ini digunakan untuk mengelompokkan konten yang berkaitan dengan kontak.
+1.	section 'class="contact": Adalah elemen yang menandai bagian "Contact Us" di halaman. Ini digunakan untuk                  mengelompokkan konten yang berkaitan dengan kontak.
 2.	div 'class="container": Adalah wadah untuk mengelompokkan elemen-elemen dalam bagian "Contact Us."
 3.	Informasi Kontak:
-4. Tiga div dengan kelas "box" mengandung informasi kontak seperti alamat, nomor telepon, dan alamat email. Setiap kotak memiliki ikon yang sesuai dari Font Awesome dan teks yang menjelaskan informasi tersebut.
+    Tiga div dengan kelas "box" mengandung informasi kontak seperti alamat, nomor telepon, dan alamat email. Setiap kotak      memiliki ikon yang sesuai dari Font Awesome dan teks yang menjelaskan informasi tersebut.
 5.	Formulir Kontak:
-6.	Elemen div 'class="contactForm" mengandung formulir yang memungkinkan pengguna mengirim pesan.
-7.	form: Adalah elemen formulir yang mengandung semua elemen formulir untuk mengirim pesan.
-8.	h2>Send Message</h2: Adalah judul di atas formulir.
-9.	Tiga div 'class="inputBox" mengandung elemen-elemen input untuk nama lengkap, alamat email, dan pesan.
-10.	Setiap elemen input memiliki atribut required="required" untuk memastikan pengguna harus mengisi bidang tersebut.
-11.	Di dalam setiap elemen input ada elemen <span> yang menampilkan label yang menghilang ketika pengguna mulai memasukkan data.
-12.	Elemen input dengan tipe "submit" digunakan untuk mengirim formulir.
+    Elemen div 'class="contactForm" mengandung formulir yang memungkinkan pengguna mengirim pesan.
+    form: Adalah elemen formulir yang mengandung semua elemen formulir untuk mengirim pesan.
+    h2>Send Message</h2: Adalah judul di atas formulir.
+    Tiga div 'class="inputBox" mengandung elemen-elemen input untuk nama lengkap, alamat email, dan pesan.
+    Setiap elemen input memiliki atribut required="required" untuk memastikan pengguna harus mengisi bidang tersebut.
+    Di dalam setiap elemen input ada elemen <span> yang menampilkan label yang menghilang ketika pengguna mulai memasukkan     data.
+  	Elemen input dengan tipe "submit" digunakan untuk mengirim formulir.
 
 
 Index.html:
