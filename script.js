@@ -49,6 +49,6 @@ async function Search(query) {
   renderMain(data.articles);
 }
 
-users.forEach((user) =>
-  console.log(user.comments?.length)
-);
+users.forEach(user => {
+    console.log(user.comments?.length);
+});
