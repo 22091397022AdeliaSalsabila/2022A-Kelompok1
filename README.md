@@ -202,6 +202,25 @@ User atau pengguna mempunyai akses untuk melihat dan mencari materi, dan user ju
 3.	footer: Adalah bagian bawah halaman web yang berisi informasi hak cipta. Seperti sebelumnya, elemen ini memiliki teks hak cipta "Copyright©2023 Design by: FOUR.U."
 
 ### 5.2 Code CSS
+**About CSS**
+![image](https://github.com/22091397022AdeliaSalsabila/2022A-Kelompok1/assets/144690329/9c3688e1-cb56-4da8-9475-89279470b624)
+reset CSS yang menghilangkan margin dan padding default, serta mengatur kotak model (box-sizing) ke border-box. Ini juga mengatur  jenis huruf (font family secara default ke Poppins atau jenis huruf sans-serif.
+
+ ![image](https://github.com/22091397022AdeliaSalsabila/2022A-Kelompok1/assets/144690329/42dc946c-61fe-4514-a0cc-a0543e0dd795)
+Ini mengatur latar belakang halaman (background) ke warna abu-abu muda (#F8F4EA) dan mengatur tinggi minimal body ke 100% tinggi tampilan (viewport height).
+
+ ![image](https://github.com/22091397022AdeliaSalsabila/2022A-Kelompok1/assets/144690329/42f6f9c1-924b-446b-9802-60b674874445)
+Ini adalah gaya untuk elemen header situs. Ini mengatur latar belakang header, tinggi, dan berbagai atribut tampilan lainnya.
+-	background-color: #FEFCF3 mengatur latar belakang header ke warna krem.
+-	height: 65px mengatur tinggi header menjadi 65 piksel.
+-	display: flex mengatur tampilan header menjadi tampilan fleksibel.
+-	align-items: center dan justify-content: space-between mengatur penempatan item di dalam header secara vertikal di tengah dan secara horizontal dengan jarak yang sama di seluruh header.
+-	box-shadow menambahkan bayangan bawah ke header.
+-	max-width: 100% dan margin: auto mengatur header agar tidak melebihi lebar maksimum 100% dan tengah rata pada tampilan.
+ 
+ ![image](https://github.com/22091397022AdeliaSalsabila/2022A-Kelompok1/assets/144690329/dcc81d18-b07a-4712-a5ed-4cf27e1b638f)
+![image](https://github.com/22091397022AdeliaSalsabila/2022A-Kelompok1/assets/144690329/e488cee6-cccf-4e14-9721-5ca9801b8636)
+Ini adalah gaya untuk daftar menu di dalam header. Menetapkan beberapa atribut seperti tampilan fleksibel dan spasi untuk item menu.
 
 
 ### 5.3 Code JavaScript
