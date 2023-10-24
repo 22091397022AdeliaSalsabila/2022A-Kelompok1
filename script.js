@@ -1,7 +1,7 @@
 const API_KEY = "165b7f43e35f489f9fb0385aeba7bed3";
-const url = "https://newsapi.org/v2/everything?q=";
+const url = "https://newsapi.org/v2/top-headlines/sources?apiKey=165b7f43e35f489f9fb0385aeba7bed3";
 
-//Define the 'users' variable
+// Define the 'users' variable
 const users = [
   { name: "User 1", comments: ["Comment 1", "Comment 2"] },
   { name: "User 2", comments: ["Comment 3"] },
@@ -9,7 +9,7 @@ const users = [
 
 async function fetchData(query) {
   try {
-    const res = await fetch(`${url}${API_KEY}`);
+    const res = await fetch(url);
     if (!res.ok) {
       throw new Error(`HTTP error! Status: ${res.status}`);
     }
@@ -46,7 +46,7 @@ function renderMain(arr) {
               <span>•</span>
               <p>${new Date(arr[i].publishedAt).toLocaleDateString()}</p>
             </div>
-            <div class="desc">
+            <div class "desc">
               ${arr[i].description}
             </div>
           </a>
