@@ -240,6 +240,22 @@ Dalam mode respon yang lebih kecil (max-width: 768px), ada perubahan tampilan, s
 Ini adalah gaya untuk footer situs, yang mengatur tinggi, warna latar belakang, dan tampilan teks.
 
 
+**Contact CSS**
+![image](https://github.com/22091397022AdeliaSalsabila/2022A-Kelompok1/assets/144690329/c59b1b9c-5396-4c4c-a14b-4cd44db30671)
+‘*’ adalah selector universal yang memengaruhi semua elemen HTML. Ini mengatur beberapa properti dasar:
+-	margin: 0; dan padding: 0; menghilangkan margin dan padding default elemen.
+-	box-sizing: border-box; mengatur model kotak ke "border-box," sehingga lebar dan tinggi elemen mencakup padding dan border.
+-	font-family: 'Poppins', sans-serif; menentukan jenis huruf default ke 'Poppins' jika tersedia, jika tidak, jenis huruf sans-serif yang umum digunakan. 
+
+![image](https://github.com/22091397022AdeliaSalsabila/2022A-Kelompok1/assets/144690329/ad2b3635-386c-423b-acc1-59311e60847c)
+Ini mengatur tampilan elemen header, termasuk latar belakang, tinggi, dan bayangan bawah (box-shadow).
+-	display: flex; mengatur elemen header menjadi tampilan fleksibel.
+-	align-items: center; dan justify-content: space-between; mengatur penempatan elemen dalam header secara vertikal dan horizontal.
+-	box-shadow menambahkan bayangan di bawah header untuk efek visual.
+
+![image](https://github.com/22091397022AdeliaSalsabila/2022A-Kelompok1/assets/144690329/5c029d2c-50bc-49e6-bf99-afe5e5594578)
+![image](https://github.com/22091397022AdeliaSalsabila/2022A-Kelompok1/assets/144690329/79245176-3a85-4575-864f-85c2849ce445)
+Bagian ini mengatur tampilan menu bar, termasuk tautan menu, tautan dropdown, dan efek hover saat tautan diklik atau disorot oleh kursor
 
 
 ### 5.3 Code JavaScript
