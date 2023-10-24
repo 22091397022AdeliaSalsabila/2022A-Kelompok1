@@ -2,7 +2,7 @@ const API_KEY = "165b7f43e35f489f9fb0385aeba7bed3";
 const url = "https://newsapi.org/v2/everything?q=";
 
 async function fetchData(query) {
-  const res = await fetch(${url}${query}&apiKey=${API_KEY});
+  const res = await fetch('${url}${query}&apiKey=${API_KEY}');
   const data = await res.json();
   return data;
 }
