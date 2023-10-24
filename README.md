@@ -222,6 +222,25 @@ Ini adalah gaya untuk elemen header situs. Ini mengatur latar belakang header, t
 ![image](https://github.com/22091397022AdeliaSalsabila/2022A-Kelompok1/assets/144690329/e488cee6-cccf-4e14-9721-5ca9801b8636)
 Ini adalah gaya untuk daftar menu di dalam header. Menetapkan beberapa atribut seperti tampilan fleksibel dan spasi untuk item menu.
 
+![image](https://github.com/22091397022AdeliaSalsabila/2022A-Kelompok1/assets/144690329/ce97d44d-35d9-4394-b65f-b2ce275f41b1)
+Ini adalah gaya untuk menu turun yang muncul ketika item menu di-hover. Ini mengatur tampilan menu turun, termasuk warna latar belakang, lebar, dan atribut lainnya.
+
+![image](https://github.com/22091397022AdeliaSalsabila/2022A-Kelompok1/assets/144690329/a5b727d1-4b07-4de7-a6ea-e037c68e2435)
+![image](https://github.com/22091397022AdeliaSalsabila/2022A-Kelompok1/assets/144690329/1b46f87a-eceb-4e33-b5f3-11f759f3d2d2)
+Ini mengatur tampilan kotak pencarian di header, termasuk atribut seperti ukuran, border, bayangan, dan transisi.
+
+![image](https://github.com/22091397022AdeliaSalsabila/2022A-Kelompok1/assets/144690329/60e00179-9afb-4d2c-bba6-62cf879ddc2a)
+![image](https://github.com/22091397022AdeliaSalsabila/2022A-Kelompok1/assets/144690329/e2b0e4d7-957b-4c30-8d97-811e2ca1925f)
+![image](https://github.com/22091397022AdeliaSalsabila/2022A-Kelompok1/assets/144690329/24278b4b-98d7-41fc-9083-4c4cd3d0e792)
+![image](https://github.com/22091397022AdeliaSalsabila/2022A-Kelompok1/assets/144690329/0775e6fb-e1eb-4131-b92b-c86d0b79484d)
+Ini adalah gaya untuk elemen yang ada di halaman "Tentang Kami". Mengatur tampilan judul, paragraf, dan elemen lainnya.
+Dalam mode respon yang lebih kecil (max-width: 768px), ada perubahan tampilan, seperti pengaturan ukuran font yang berbeda dan perubahan posisi elemen.
+
+![image](https://github.com/22091397022AdeliaSalsabila/2022A-Kelompok1/assets/144690329/be8775f6-ed02-4c2c-9710-57384f6f9dad)
+Ini adalah gaya untuk footer situs, yang mengatur tinggi, warna latar belakang, dan tampilan teks.
+
+
+
 
 ### 5.3 Code JavaScript
 1. API_KEY dan URL: Di bagian ini, Anda mendefinisikan API_KEY dan URL yang digunakan untuk mengakses data berita dari NewsAPI.org.
