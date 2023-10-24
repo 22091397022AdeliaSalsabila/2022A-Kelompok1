@@ -285,6 +285,18 @@ box-sizing: border-box; mengatur model kotak (box model) elemen HTML, sehingga l
 ![image](https://github.com/22091397022AdeliaSalsabila/2022A-Kelompok1/assets/144690329/39db2fbf-f8f1-45c2-8a6f-1fe4b4c41703)
 Ini adalah gaya yang memengaruhi elemen <body>, yang merupakan elemen utama di halaman HTML. Ini termasuk mengatur font, ukuran font, margin, dan latar belakang halaman
 
+
+![image](https://github.com/22091397022AdeliaSalsabila/2022A-Kelompok1/assets/144690329/37bd5d06-f597-403a-bd75-29034bc1614e)
+Ini adalah gaya yang memengaruhi elemen dengan tag <header>
+
+
+![image](https://github.com/22091397022AdeliaSalsabila/2022A-Kelompok1/assets/144690329/2ac79698-e3fb-41be-931c-441a9faed7a6)
+-	.menu-bar ul { ... }: Ini adalah pengaturan untuk daftar yang mungkin digunakan sebagai menu navigasi di header. Ini mengatur tata letak dan tampilan elemen daftar dan tautan dalam daftar.
+-	.menu-bar ul li { ... }: Ini adalah pengaturan untuk setiap elemen daftar dalam menu. Ini mengatur tata letak, margin, dan tampilan elemen daftar.
+-	.menu-bar ul li a { ... }: Ini adalah pengaturan untuk tautan dalam daftar menu. Ini mengendalikan tampilan tautan, termasuk warna dan efek hover.
+-	.fas { ... }: Ini adalah pengaturan untuk ikon (sepertinya ikon Font Awesome). Ini mengatur tampilan ikon.
+
+
 ### 5.3 Code JavaScript
 1. API_KEY dan URL: Di bagian ini, Anda mendefinisikan API_KEY dan URL yang digunakan untuk mengakses data berita dari NewsAPI.org.
 2. Array 'users': Anda mendefinisikan array 'users' yang berisi objek-objek pengguna dengan properti 'name' dan 'comments'.
