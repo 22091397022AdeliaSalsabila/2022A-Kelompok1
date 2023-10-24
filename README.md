@@ -60,16 +60,29 @@ Mematuhi konvensi-konvensi ini akan membantu menciptakan pengalaman pengguna yan
    
 Website ini ditujukan kepada seluruh masyarakat, terutama anak muda dari sekolah dasar hingga yang sudah bekerja.
 
-5. Lingkup Produk
+5. Deskripsi Produk:
+
+Selamat datang di situs web berita terkini kami, tempatnya untuk mendapatkan informasi terbaru dan terpercaya dari seluruh penjuru dunia. Situs web berita kami didedikasikan untuk memberikan Anda akses cepat dan mudah ke berita terkini tentang politik, bisnis, teknologi, kesehatan, hiburan, dan topik-topik lainnya yang relevan.
+
+Fitur Utama:
+
+- Berita Terkini: Kami menyajikan berita terbaru dan terkini setiap hari, memberi Anda pemahaman mendalam tentang peristiwa terkini di seluruh dunia.
+- Ketepatan dan Keandalan: Informasi yang kami sajikan dijamin akurat dan terpercaya, didukung oleh tim jurnalis profesional kami yang selalu bekerja keras untuk memberikan berita terbaik kepada Anda.
+- Beragam Topik: Situs web kami mencakup berbagai topik mulai dari politik, ekonomi, hiburan, hingga teknologi. Anda dapat menemukan semua informasi yang Anda butuhkan dalam satu tempat.
+- Tata Letak Responsif: Desain responsif situs web kami memastikan pengalaman penjelajahan yang mulus, baik Anda mengaksesnya melalui komputer, tablet, atau ponsel pintar.
+- Pencarian Cepat: Gunakan fitur pencarian kami untuk dengan mudah menemukan berita atau artikel tentang topik spesifik yang Anda minati.
+- Berita Terkini Langsung ke Email Anda: Berlangganan buletin berita kami dan dapatkan ringkasan berita terkini langsung di kotak masuk email Anda setiap hari.
+
+6. Lingkup Produk
    
 Adapun ruang lingkup pembuatan software ini yaitu aplikasi berbasis website yang memiliki beberapa fasilitas berupa :
-Sistem mampu menampilkan halaman sesuai dengan berita yang ingin dilihat oleh pengguna
-Sistem mampu menyimpan berita sesuai dengan apa yang administrator unggah
-Sistem mampu menampilkan quiz sesuai dengan apa yang administrator unggah
-Sistem mampu membedakan mana administrator dan pengguna ketika melakukan login ataupun signup
-Sistem mampu melakukan maintenance untuk pemeliharaan 
+- Sistem mampu menampilkan halaman sesuai dengan berita yang ingin dilihat oleh pengguna
+- Sistem mampu menyimpan berita sesuai dengan apa yang administrator unggah
+- Sistem mampu menampilkan quiz sesuai dengan apa yang administrator unggah
+- Sistem mampu membedakan mana administrator dan pengguna ketika melakukan login ataupun signup
+- Sistem mampu melakukan maintenance untuk pemeliharaan 
 
-6. Fungsi Produk
+7. Fungsi Produk
 
 Fungsi utama dari sistem ScriptKu - Website News-Paper yang dibangun antara lain :
 Publikasi Artikel :
@@ -93,7 +106,7 @@ Memastikan keamanan data pengguna dan menyajikan berita yang akurat, terpercaya,
 Analisis Pengguna :
 Mengumpulkan data pengguna untuk memahami perilaku pembaca, membantu meningkatkan konten, dan memberikan pengalaman yang lebih baik.
 
-7. Kelas dan Karakteristik Pengguna
+8. Kelas dan Karakteristik Pengguna
 
 Dalam sistem di ScriptKu – Website NewsPaper, ada beberapa pengguna yang terlibat yaitu sebagai berikut :
 
@@ -103,7 +116,7 @@ Administrator bisa memiliki banyak fungsi, yaitu dapat mengupload materi yang ak
 Pembaca aktif(pengguna website)
 User atau pengguna mempunyai akses untuk melihat dan mencari materi, dan user juga dapat mendownload materi tersebut yang nantinya bisa dipelajari secara offline. pengguna bisa mengakses berbagai berita online untuk tetap terinformasi tentang berbagai topik termasuk berita terkini, politik, olahraga, dan hiburan.
 
-8. Lingkup Operasi
+9. Lingkup Operasi
 
 Pengelolaan Konten:
 Pembuatan, penyuntingan, dan penjadwalan artikel berita, serta pengelolaan multimedia seperti foto dan video.
