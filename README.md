@@ -137,5 +137,50 @@ b.	Use Case Website E-Newspaper
 
 ![image](https://github.com/66adelia66/2022A-Kelompok1/assets/124540149/cf93efe7-da2d-464f-a2e2-b3c7122833f1)
 
+Code HTML:
+about.hmtl :
+1.	<!DOCTYPE html>: Adalah deklarasi tipe dokumen HTML yang memberitahukan browser bahwa halaman ini adalah dokumen HTML.
+2.	<html lang="en">: Adalah elemen root yang mengelilingi seluruh dokumen HTML. Atribut lang digunakan untuk menentukan bahasa dokumen, dalam hal ini, bahasa yang digunakan adalah bahasa Inggris.
+3.	<head>: Bagian ini berisi informasi-informasi meta dan tautan ke berkas-berkas eksternal yang akan digunakan oleh halaman web.
+•	<meta charset="UTF-8">: Mendefinisikan set karakter yang digunakan dalam dokumen sebagai UTF-8, yang mendukung banyak karakter dan bahasa.
+•	<meta http-equiv="X-UA-Compatible" content="IE-edge">: Meta tag yang mendukung pengaturan kompatibilitas dengan Internet Explorer (IE). Nilai "IE=edge" mengharuskan IE untuk menggunakan mode terbaru yang tersedia.
+•	<meta name="viewport" content="width=device-width, initial-scale=1.0">: Adalah meta tag yang mendefinisikan cara tampilan halaman akan disesuaikan dengan lebar perangkat. Dalam hal ini, halaman akan menyesuaikan diri dengan lebar perangkat dan mengaktifkan zoom awal dengan skala 1.0.
+•	<title>FOUR.U</title>: Adalah elemen judul halaman, yang akan ditampilkan di tampilan judul browser.
+•	Elemen <link>: Digunakan untuk menghubungkan berkas eksternal ke dokumen. Pada kode ini, dua berkas CSS dan sebuah font awesome ikon dihubungkan.
+4.	<body>: Adalah elemen yang berisi konten aktual yang akan ditampilkan di halaman web.
+•	<header>: Adalah bagian kepala halaman, berisi elemen-elemen seperti logo, menu navigasi, dan elemen lainnya yang biasanya muncul di bagian atas halaman.
+•	<img src="./FOURU.png" width="150px">: Adalah elemen gambar yang menampilkan logo "FOUR.U" dengan lebar 150 piksel.
+•	<div class="container-navbar">: Adalah div yang berisi menu navigasi yang terdiri dari tautan ke halaman "HOME," "ABOUT," dan "CONTACT."
+•	<div class="inputSearch desktop">: Adalah div yang berisi formulir pencarian dengan elemen input dan ikon pencarian.
+•	<nav class="desktop">: Adalah elemen navigasi untuk menu kategori yang mungkin digunakan untuk mengkategorikan berita atau konten.
+•	<div class="menuButton">: Adalah div yang berisi ikon menu untuk tampilan layar lebar.
+•	<div class="mobile hidden">: Adalah div yang berisi menu navigasi dan formulir pencarian yang hanya akan ditampilkan pada tampilan layar berukuran kecil.
+•	<main></main>: Adalah elemen utama halaman yang akan berisi konten utama dari halaman web. Saat ini, elemen ini kosong dan perlu diisi dengan konten yang sesuai.
+•	<script src="script.js"></script>: Adalah elemen JavaScript yang mengacu pada berkas eksternal "script.js" yang digunakan untuk menambahkan fungsionalitas interaktif ke halaman web.
+•	<footer>: Adalah bagian bawah halaman yang berisi informasi hak cipta dan kredit desain.
+•	<div class="container-footer">: Adalah div yang berisi teks hak cipta dan kredit desain.
+
+contact.html :
+1.	<section class="contact">: Adalah elemen yang menandai bagian "Contact Us" di halaman. Ini digunakan untuk mengelompokkan konten yang berkaitan dengan kontak.
+2.	<div class="container">: Adalah wadah untuk mengelompokkan elemen-elemen dalam bagian "Contact Us."
+3.	Informasi Kontak:
+•	Tiga div dengan kelas "box" mengandung informasi kontak seperti alamat, nomor telepon, dan alamat email. Setiap kotak memiliki ikon yang sesuai dari Font Awesome dan teks yang menjelaskan informasi tersebut.
+4.	Formulir Kontak:
+•	Elemen <div class="contactForm"> mengandung formulir yang memungkinkan pengguna mengirim pesan.
+•	<form>: Adalah elemen formulir yang mengandung semua elemen formulir untuk mengirim pesan.
+•	<h2>Send Message</h2>: Adalah judul di atas formulir.
+•	Tiga <div class="inputBox"> mengandung elemen-elemen input untuk nama lengkap, alamat email, dan pesan.
+•	Setiap elemen input memiliki atribut required="required" untuk memastikan pengguna harus mengisi bidang tersebut.
+•	Di dalam setiap elemen input ada elemen <span> yang menampilkan label yang menghilang ketika pengguna mulai memasukkan data.
+•	Elemen input dengan tipe "submit" digunakan untuk mengirim formulir.
+
+
+Index.html:
+1.	<main></main>: Adalah elemen <main> yang memungkinkan Anda menempatkan konten utama dari halaman web. 
+2.	<script src="script.js"></script>: Adalah elemen <script> yang menghubungkan ke berkas JavaScript eksternal dengan nama "script.js." Ini mengindikasikan bahwa ada skrip JavaScript yang akan dijalankan untuk mengatur perilaku halaman. 
+3.	<footer>: Adalah bagian bawah halaman web yang berisi informasi hak cipta. Seperti sebelumnya, elemen ini memiliki teks hak cipta "Copyright©2023 Design by: FOUR.U."
+
+
+
 
 </div>
