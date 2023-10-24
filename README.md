@@ -165,15 +165,14 @@ contact.html :
 1.	section 'class="contact": Adalah elemen yang menandai bagian "Contact Us" di halaman. Ini digunakan untuk                  mengelompokkan konten yang berkaitan dengan kontak.
 2.	div 'class="container": Adalah wadah untuk mengelompokkan elemen-elemen dalam bagian "Contact Us."
 3.	Informasi Kontak:
-    Tiga div dengan kelas "box" mengandung informasi kontak seperti alamat, nomor telepon, dan alamat email. Setiap kotak      memiliki ikon yang sesuai dari Font Awesome dan teks yang menjelaskan informasi tersebut.
-5.	Formulir Kontak:
-    Elemen div 'class="contactForm" mengandung formulir yang memungkinkan pengguna mengirim pesan.
-    form: Adalah elemen formulir yang mengandung semua elemen formulir untuk mengirim pesan.
-    h2>Send Message</h2: Adalah judul di atas formulir.
-    Tiga div 'class="inputBox" mengandung elemen-elemen input untuk nama lengkap, alamat email, dan pesan.
-    Setiap elemen input memiliki atribut required="required" untuk memastikan pengguna harus mengisi bidang tersebut.
-    Di dalam setiap elemen input ada elemen <span> yang menampilkan label yang menghilang ketika pengguna mulai memasukkan     data.
-  	Elemen input dengan tipe "submit" digunakan untuk mengirim formulir.
+    Tiga div dengan kelas "box" mengandung informasi kontak seperti alamat, nomor telepon, dan alamat email. Setiap kotak memiliki ikon yang sesuai dari Font Awesome dan teks yang menjelaskan informasi tersebut.
+4. Elemen div 'class="contactForm" mengandung formulir yang memungkinkan pengguna mengirim pesan.
+5. form: Adalah elemen formulir yang mengandung semua elemen formulir untuk mengirim pesan.
+6. h2>Send Message</h2: Adalah judul di atas formulir.
+7. Tiga div 'class="inputBox" mengandung elemen-elemen input untuk nama lengkap, alamat email, dan pesan.
+8. Setiap elemen input memiliki atribut required="required" untuk memastikan pengguna harus mengisi bidang tersebut.
+9. Di dalam setiap elemen input ada elemen <span> yang menampilkan label yang menghilang ketika pengguna mulai memasukkan     data.
+10.Elemen input dengan tipe "submit" digunakan untuk mengirim formulir.
 
 
 Index.html:
