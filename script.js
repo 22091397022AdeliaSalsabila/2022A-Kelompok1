@@ -8,16 +8,8 @@ async function fetchData(query){
     return data
 }
 
+
 fetchData("all").then(data => renderMain(data.articles))
-
-//menu button
-/*let mobilemenu = document.querySelector(".mobile")
-let menuButton = document.querySelector(".menuButton")
-let menuButtonDisplay = true;
-
-menuButton.addEventListener("click",()=>{
-    mobilemenu.classList.toggle("hidden")
-})*/
 
 
 //render news 
@@ -45,10 +37,10 @@ function renderMain(arr){
     document.querySelector("main").innerHTML = mainHTML
 }
 
+
 const searchButton = document.getElementById("searchForm")
-/*const searchButtonMobile = document.getElementById("searchFormMobile")
-const searchInputMobile = document.getElementById("searchInputMobile")*/ 
 const searchInput = document.getElementById("searchInput")
+
 
 searchButton.addEventListener("submit",async(e)=>{
     e.preventDefault()
@@ -57,12 +49,6 @@ searchButton.addEventListener("submit",async(e)=>{
     const data = await fetchData(searchInput.value)
     renderMain(data.articles)
 })
-
-/*searchButtonMobile.addEventListener("submit",async(e)=>{
-    e.preventDefault()
-    const data = await fetchData(searchInputMobile.value)
-    renderMain(data.articles)
-})*/
 
 
 async function Search(query){
