@@ -310,6 +310,16 @@ Ini adalah pengaturan elemen dropdown dalam menu. Ini mengatur tampilan dan peri
 -	@media all and (min-width: 700px) { ... }: Ini adalah aturan media query yang mengubah tampilan elemen pada layar yang lebih lebar (lebar minimum 700px). Ini mengatur tampilan formulir pencarian dan elemen lainnya pada layar yang lebih besar.
 
 
+![image](https://github.com/22091397022AdeliaSalsabila/2022A-Kelompok1/assets/144690329/1ce67b20-4171-4397-8c7e-87206492ae56)
+![image](https://github.com/22091397022AdeliaSalsabila/2022A-Kelompok1/assets/144690329/823ecc84-d33f-4e9b-aa8f-3e4186ef56a7)
+-	main { ... }: Ini adalah pengaturan untuk elemen <main> dalam halaman web. Ini digunakan untuk mengatur tampilan elemen konten utama
+-	.card { ... }: Ini adalah pengaturan untuk elemen kartu yang mungkin digunakan untuk menampilkan konten
+-	.card img { ... }: Ini adalah pengaturan untuk elemen gambar dalam kartu
+-	.card h4, .card div { ... }: Ini adalah pengaturan untuk elemen teks (judul dan isi) dalam kartu. Ini mengatur jarak dan tampilan teks dalam kartu.
+-	.publishbyDate { ... }: Ini adalah pengaturan untuk elemen yang mungkin digunakan untuk menampilkan informasi tanggal publikasi atau pengarang. Ini mengatur tampilan dan warna teks yang lebih ringan.
+-	@media all and (min-width: 700px) { ... }: Ini adalah aturan media query yang mengubah tampilan elemen kartu pada layar yang lebih lebar (lebar minimum 700px). Ini mengatur jarak dan padding untuk elemen kartu saat layar lebih besar, serta mengubah tampilan kartu menjadi tata letak berbasis grid dengan lebih banyak kartu dalam satu baris.
+
+
 
 
 ### 5.3 Code JavaScript
