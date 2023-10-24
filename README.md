@@ -193,4 +193,12 @@ Index.html:
 2.	script 'src="script.js"'/script: Adalah elemen <script> yang menghubungkan ke berkas JavaScript eksternal dengan nama "'script.js." Ini mengindikasikan bahwa ada skrip JavaScript yang akan dijalankan untuk mengatur perilaku halaman. 
 3.	footer: Adalah bagian bawah halaman web yang berisi informasi hak cipta. Seperti sebelumnya, elemen ini memiliki teks hak cipta "Copyright©2023 Design by: FOUR.U."
 
+Code JavaScript :
+1. API_KEY dan URL: Di bagian ini, Anda mendefinisikan API_KEY dan URL yang digunakan untuk mengakses data berita dari NewsAPI.org.
+2. Array 'users': Anda mendefinisikan array 'users' yang berisi objek-objek pengguna dengan properti 'name' dan 'comments'.
+3. fetchData(): Ini adalah fungsi yang mengambil data dari API NewsAPI.org. Anda menggunakan fetch untuk mengirim permintaan HTTP dan mengambil data JSON. Jika ada kesalahan selama pengambilan data, kode juga menangani kesalahan tersebut.
+4. renderMain(): Fungsi ini digunakan untuk merender data berita yang diterima dari API. Ini menciptakan elemen-elemen HTML yang menampilkan judul, gambar, sumber, tanggal publikasi, dan deskripsi dari setiap artikel berita. Kemudian, hasilnya dimasukkan ke dalam elemen 'main' halaman web.
+5. Event Listener 'searchButton': Kode ini mendengarkan peristiwa saat formulir pencarian ('searchForm') disubmit. Ketika pengguna mengirimkan formulir, kode menjalankan fungsi fetchData() untuk mencari berita berdasarkan kata kunci pencarian dan kemudian menampilkan hasilnya dengan memanggil renderMain().
+6. ForEach Loop 'users': Kode ini mengiterasi melalui setiap objek dalam array 'users' dan mencetak jumlah komentar (properti 'comments') dari setiap pengguna. Ini menggunakan penggunaan operator opsional ?. untuk mengatasi situasi di mana objek 'comments' mungkin tidak didefinisikan.
+
 </div>
