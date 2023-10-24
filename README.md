@@ -325,6 +325,22 @@ Ini adalah pengaturan elemen dropdown dalam menu. Ini mengatur tampilan dan peri
 -	.h1-footer { ... }: Ini adalah pengaturan untuk elemen teks dalam footer
 
 **Team CSS**
+![image](https://github.com/22091397022AdeliaSalsabila/2022A-Kelompok1/assets/144690329/d092b781-d2b2-4412-a110-293204e0248e)
+Ini adalah pengaturan yang berlaku untuk semua elemen di halaman web
+
+![image](https://github.com/22091397022AdeliaSalsabila/2022A-Kelompok1/assets/144690329/4e26d1ec-5ba2-4bef-b95e-220c6015bc41)
+Ini adalah pengaturan untuk elemen header halaman web
+
+![image](https://github.com/22091397022AdeliaSalsabila/2022A-Kelompok1/assets/144690329/873bbcde-dfb4-406b-894e-f91a8a1d7399)
+-	.menu-bar ul li { ... }: Ini adalah pengaturan untuk setiap elemen daftar dalam menu. Ini mengatur jarak, ukuran font, dan tampilan elemen daftar.
+-	.menu-bar ul li a { ... }: Ini adalah pengaturan untuk tautan dalam elemen daftar menu. Ini mengatur tampilan tautan, termasuk warna dan efek hover.
+-	.menu-bar ul li a:hover { ... }: Ini mengatur tampilan tautan saat tautan tersebut diarahkan (hover) dengan kursor. Warna teks berubah saat tautan dihover.
+-	.fas { ... }: Ini adalah pengaturan untuk elemen dengan kelas fas, mungkin digunakan untuk ikon. Pengaturan ini mengatur tampilan ikon, termasuk warna dan padding.
+
+![image](https://github.com/22091397022AdeliaSalsabila/2022A-Kelompok1/assets/144690329/b3a4f381-70c8-45a7-9eaf-5e13f7e7a26b)
+Ini adalah pengaturan untuk elemen dropdown dalam menu navigasi
+
+
 
 
 ### 5.3 Code JavaScript
