@@ -49,6 +49,6 @@ async function Search(query) {
   renderMain(data.articles);
 }
 
-users.ForEach((user) =>
+users.forEach((user) =>
   console.log(user.comments?.length)
 );
