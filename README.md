@@ -21,9 +21,8 @@
 
 * [Bab 1 Pendahuluan](#Bab-1-Pendahuluan)
 * [Bab 2 Deskripsi Keseluruhan](#Bab-1-Pendahuluan)
-* [Bab 3 Kebutuhan Antarmuka Eksternal](#Bab-1-Pendahuluan)
-* [Bab 4 Kebutuhan Fungsional](#Bab-1-Pendahuluan)
-* [Bab 5 Penjelasan HTML, CSS, dan JavaScript](#Bab-1-Pendahuluan)
+* [Bab 3 Kebutuhan Fungsional](#Bab-1-Pendahuluan)
+* [Bab 4 Penjelasan HTML, CSS, dan JavaScript](#Bab-1-Pendahuluan)
 
 <div> <p> . </p> </div>
 
@@ -141,25 +140,21 @@ User atau pengguna mempunyai akses untuk melihat dan mencari materi, dan user ju
 
 <div> <p> . </p> </div>
 
-## Bab 3 Kebutuhan Antarmuka Eksternal
+## Bab 3 Kebutuhan Fungsional
 
-<div> <p> . </p> </div>
-
-## Bab 4 Kebutuhan Fungsional
-
-### 4.1 Flowchart
+### 3.1 Flowchart
 
 ![image](https://github.com/66adelia66/2022A-Kelompok1/assets/124540149/4d209929-ce93-4acb-94ea-feebd20efeef)
 
-### 4.2 Use Case
+### 3.2 Use Case
 
 ![image](https://github.com/66adelia66/2022A-Kelompok1/assets/124540149/cf93efe7-da2d-464f-a2e2-b3c7122833f1)
 
 <div> <p> . </p> </div>
 
-## Bab 5 Penjelasan HTML CSS dan JavaScript
+## Bab 4 Penjelasan HTML CSS dan JavaScript
 
-### 5.1 Code HTML
+### 4.1 Code HTML
 
 ***about.hmtl :***
 1.	!DOCTYPE html: Adalah deklarasi tipe dokumen HTML yang memberitahukan browser bahwa halaman ini adalah dokumen HTML.
@@ -201,7 +196,7 @@ User atau pengguna mempunyai akses untuk melihat dan mencari materi, dan user ju
 2.	script 'src="script.js"'/script: Adalah elemen <script> yang menghubungkan ke berkas JavaScript eksternal dengan nama "'script.js." Ini mengindikasikan bahwa ada skrip JavaScript yang akan dijalankan untuk mengatur perilaku halaman. 
 3.	footer: Adalah bagian bawah halaman web yang berisi informasi hak cipta. Seperti sebelumnya, elemen ini memiliki teks hak cipta "Copyright©2023 Design by: FOUR.U."
 
-### 5.2 Code CSS
+### 4.2 Code CSS
 **About CSS**
 ![image](https://github.com/22091397022AdeliaSalsabila/2022A-Kelompok1/assets/144690329/9c3688e1-cb56-4da8-9475-89279470b624)
 reset CSS yang menghilangkan margin dan padding default, serta mengatur kotak model (box-sizing) ke border-box. Ini juga mengatur  jenis huruf (font family secara default ke Poppins atau jenis huruf sans-serif.
@@ -361,7 +356,7 @@ Ini adalah pengaturan untuk elemen footer pada halaman web
 
 
 
-### 5.3 Code JavaScript
+### 4.3 Code JavaScript
 1. API_KEY dan URL: Di bagian ini, Anda mendefinisikan API_KEY dan URL yang digunakan untuk mengakses data berita dari NewsAPI.org.
 2. Array 'users': Anda mendefinisikan array 'users' yang berisi objek-objek pengguna dengan properti 'name' dan 'comments'.
 3. fetchData(): Ini adalah fungsi yang mengambil data dari API NewsAPI.org. Anda menggunakan fetch untuk mengirim permintaan HTTP dan mengambil data JSON. Jika ada kesalahan selama pengambilan data, kode juga menangani kesalahan tersebut.
