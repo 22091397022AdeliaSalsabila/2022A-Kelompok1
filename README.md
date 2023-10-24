@@ -297,6 +297,21 @@ Ini adalah gaya yang memengaruhi elemen dengan tag <header>
 -	.fas { ... }: Ini adalah pengaturan untuk ikon (sepertinya ikon Font Awesome). Ini mengatur tampilan ikon.
 
 
+![image](https://github.com/22091397022AdeliaSalsabila/2022A-Kelompok1/assets/144690329/93f656c5-abac-4fb6-9e77-9fdbe445ca4f)
+Ini adalah pengaturan elemen dropdown dalam menu. Ini mengatur tampilan dan perilaku dropdown saat digunakan
+
+
+![image](https://github.com/22091397022AdeliaSalsabila/2022A-Kelompok1/assets/144690329/b5c5325d-cf79-4af1-a8fa-7f3a0b344fd2)
+![image](https://github.com/22091397022AdeliaSalsabila/2022A-Kelompok1/assets/144690329/bc310ab8-dfd3-4166-b5c4-5b4a740ecac4)
+-	.inputSearch .searchForm { ... }: Ini adalah pengaturan untuk elemen form pencarian. Ini mengatur tampilan kotak pencarian dan ikon pencarian.
+-	.inputSearch .searchInput { ... }: Ini adalah pengaturan untuk elemen input dalam kotak pencarian
+-	.inputSearch .icon { ... }: Ini adalah pengaturan untuk ikon pencarian
+-	.inputSearch .searchInput:focus ~ .icon { ... }: Ini adalah pengaturan yang mengubah tampilan ikon pencarian saat elemen input dalam keadaan fokus (kursor berada di dalamnya)
+-	@media all and (min-width: 700px) { ... }: Ini adalah aturan media query yang mengubah tampilan elemen pada layar yang lebih lebar (lebar minimum 700px). Ini mengatur tampilan formulir pencarian dan elemen lainnya pada layar yang lebih besar.
+
+
+
+
 ### 5.3 Code JavaScript
 1. API_KEY dan URL: Di bagian ini, Anda mendefinisikan API_KEY dan URL yang digunakan untuk mengakses data berita dari NewsAPI.org.
 2. Array 'users': Anda mendefinisikan array 'users' yang berisi objek-objek pengguna dengan properti 'name' dan 'comments'.
