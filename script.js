@@ -3,7 +3,7 @@ const url = "https://newsapi.org/v2/everything?q=";
 
 async function fetchData(query) {
   try {
-    const res = await fetch(`${url}${query}&apiKey=${API_KEY}`);
+    const res = await fetch(`${url}${API_KEY}`);
     if (!res.ok) {
       throw new Error(`HTTP error! Status: ${res.status}`);
     }
