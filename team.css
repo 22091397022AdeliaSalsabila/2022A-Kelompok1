@@ -58,37 +58,6 @@ header{
     padding-top: 3px;
 }
 
-/* dropdown menu style */
-
-.dropdown-menu {
-    display: none;
-}
-
-.menu-bar ul li:hover .dropdown-menu {
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 100%;
-    background-color: #FEFCF3;
-    height: 235px;
-    width: 140px;
-}
-
-.menu-bar ul li:hover .dropdown-menu ul {
-    display: block;
-    margin: auto;
-}
-
-.menu-bar ul li:hover .dropdown-menu ul li {
-    width: 150px;
-    padding: 5px;
-}
-
-.menu-bar ul li:hover .dropdown-menu ul li a {
-    font-size: 15px;
-    font-weight: 600;
-}
-
 
 /**MENU SEARCH**/
 
