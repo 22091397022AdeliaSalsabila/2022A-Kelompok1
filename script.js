@@ -1,74 +1,48 @@
-const API_KEY = "165b7f43e35f489f9fb0385aeba7bed3";
-const url = "https://newsapi.org/v2/top-headlines/sources?apiKey=165b7f43e35f489f9fb0385aeba7bed3";
+//filter JS
+$(document).ready(function(){
+    $(".filter-item").click(function(){
+        const value = $(this).attr("data-filter");
+        if (value == 'all'){
+        $(".post-box").show("1000");
+        }
+        else{
+        $(".post-box")
+            .not("." + value)
+            .hide("1000");
+        $('.post-box')
+            .filter("." + value)
+            .show("1000");
+        }
+    });
 
-// Define the 'users' variable
-const users = [
-  { name: "User 1", comments: ["Comment 1", "Comment 2"] },
-  { name: "User 2", comments: ["Comment 3"] },
-];
+    //add active to btn
+    $(".filter-item").click(function(){
+        $(this).addClass("active-filter").siblings().removeClass("active-filter");
+    });
+    });
 
-async function fetchData(query) {
-  try {
-    const res = await fetch(url);
-    if (!res.ok) {
-      throw new Error(`HTTP error! Status: ${res.status}`);
-    }
-    const data = await res.json();
-    return data;
-  } catch (error) {
-    console.error("Error fetching data:", error);
-    return null;
-  }
+    //header background change on scroll
+    let header = document.querySelector("header");
+
+    window.addEventListener("scroll", () => {
+    header.classList.toggle("shadow", window.scrollY > 0);
+    });
+
+    
+/* fungsi search button */
+const searchButton = document.getElementById("searchForm")
+const searchInput = document.getElementById("searchInput")
+
+
+searchButton.addEventListener("submit",async(e)=>{
+    e.preventDefault()
+    console.log(searchInput.value)
+
+    const data = await fetchData(searchInput.value)
+    renderMain(data.articles)
+})
+
+async function Search(query){
+    const data = await fetchData(query)
+    renderMain(data.articles)
 }
-
-fetchData("all")
-  .then((data) => {
-    if (data) {
-      renderMain(data.articles);
-    }
-  })
-  .catch((error) => {
-    console.error("Error fetching data:", error);
-  });
-
-// render news
-function renderMain(arr) {
-  let mainHTML = "";
-  for (let i = 0; i < arr.length; i++) {
-    if (arr[i].urlToImage) {
-      mainHTML += `
-        <div class="card">
-          <a href="${arr[i].url}">
-            <img src="${arr[i].urlToImage}" loading="lazy" />
-            <h4>${arr[i].title}</h4>
-            <div class="publishbyDate">
-              <p>${arr[i].source.name}</p>
-              <span>•</span>
-              <p>${new Date(arr[i].publishedAt).toLocaleDateString()}</p>
-            </div>
-            <div class "desc">
-              ${arr[i].description}
-            </div>
-          </a>
-        </div>`;
-    }
-  }
-
-  document.querySelector("main").innerHTML = mainHTML;
-}
-
-const searchButton = document.getElementById("searchForm");
-const searchInput = document.getElementById("searchInput");
-
-searchButton.addEventListener("submit", async (e) => {
-  e.preventDefault();
-  const data = await fetchData(searchInput.value);
-  if (data) {
-    renderMain(data.articles);
-  }
-});
-
-// Users forEach loop
-users?.forEach((user) => {
-  console.log(user.comments?.length);
-});
